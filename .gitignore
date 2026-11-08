@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+generated_configs/
+outputs/
+runs/
+data/
+weights/
+*.pth
+*.pt
+*.npz
+*.npy

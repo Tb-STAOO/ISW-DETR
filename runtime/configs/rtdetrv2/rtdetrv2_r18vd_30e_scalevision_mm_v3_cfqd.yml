@@ -1,0 +1,45 @@
+__include__: [
+  '../runtime.yml',
+  './include/dataloader.yml',
+  './include/optimizer.yml',
+  './include/cfqd_r18.yml',
+  '../dataset/scalevision_mm_v3_cfqd.yml',
+]
+
+output_dir: D:/MY_DATA/02-project/sci_project/RT_DETR/Official/RT-DETR/rtdetrv2_pytorch/output/CFQD_SV_FULL
+num_classes: 28
+remap_mscoco_category: False
+use_amp: True
+use_ema: False
+sync_bn: False
+find_unused_parameters: False
+
+epoches: 30
+print_freq: 50
+checkpoint_freq: 30
+
+early_stop:
+  enabled: True
+  metric: coco_eval_bbox
+  mode: max
+  patience: 7
+  min_delta: 0.0001
+  min_epoch: 12
+
+optimizer:
+  type: AdamW
+  lr: 0.0001
+  betas: [0.9, 0.999]
+  weight_decay: 0.0001
+  params:
+    - {params: '^decoder[.]cfqd_.*$', lr: 0.0001}
+
+lr_scheduler:
+  type: MultiStepLR
+  milestones: [22]
+  gamma: 0.1
+
+lr_warmup_scheduler:
+  type: LinearWarmup
+  warmup_duration: 100
+

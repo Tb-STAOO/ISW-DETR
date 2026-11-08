@@ -1,0 +1,13 @@
+__include__: ['./rtdetrv2_r18vd_30e_scalevision_mm_v3_cfqd.yml']
+
+output_dir: D:/MY_DATA/02-project/sci_project/RT_DETR/Official/RT-DETR/rtdetrv2_pytorch/output/CFQD_SV_FACTORIZED
+
+CFQDRTDETRTransformerv2:
+  cfqd_variant: factorized
+
+RTDETRCriterionv2:
+  cfqd_parent_weight: 0.2
+  cfqd_confusion_weight: 0.0
+  cfqd_state_weight: 0.1
+  cfqd_bhcl_weight: 0.0
+

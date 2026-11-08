@@ -1,0 +1,43 @@
+{
+  "dataset": "ScaleVision-MM-V3",
+  "fixed_delivered_input_sha256": {
+    "annotations/splits/instances_train.json": "72bbec66dac887f604b967004827cb2ebc29a6e4055e369903acdd59d57276cf",
+    "annotations/splits/instances_val.json": "4bda29f29aa9807943ec7b97e15588d74f1ff5a04a238c6461871c2e2b63881b",
+    "annotations/splits/instances_multimodal_train.json": "e36132cd0b22998697d3a63ac1fbb3300802bc30ec79821abaae4f9d7900bb13",
+    "annotations/splits/instances_multimodal_val.json": "280d70f8f45e2361450b2d69fd1d7993d0993ec6b63cba4f5e2c48efefe7ba8e"
+  },
+  "backbone_sha256": "911a745b62e173c8f4b9af513c2ea295428cf23f1bbfe9048381500f140fd720",
+  "base_tensor_equivalence": [
+    {
+      "seed": 42,
+      "warm_sha256": "dd4148f5f045149f16834a863d8598ca3f95404afbbd8cf6d5016a0147a17ff0",
+      "published_sha256": "12fd6931f4cbd9b050db232d4c9f9438ace1b7f344cc7cc54b6d10890789c258",
+      "matched_tensors": 537,
+      "all_exact": true,
+      "absent_from_published": [
+        "decoder.denoising_class_embed.weight"
+      ]
+    },
+    {
+      "seed": 3407,
+      "warm_sha256": "d4aa428e5ef8004e3ae714918e193907fc7636d19224f1516032661158c8202e",
+      "published_sha256": "9a8fdcf084c31c5715cc3e3c8686c92947aa6c1e50731858bf7ec98c370b83e0",
+      "matched_tensors": 537,
+      "all_exact": true,
+      "absent_from_published": [
+        "decoder.denoising_class_embed.weight"
+      ]
+    },
+    {
+      "seed": 2026,
+      "warm_sha256": "d7412b747a78ab9a520f33ea6662872479468f44b457d768c59bad3dbd2adb98",
+      "published_sha256": "ca8f29329649bbdf514c41b7ef7ccdc305ba39cc682b9d1a068643056c0d0dfe",
+      "matched_tensors": 537,
+      "all_exact": true,
+      "absent_from_published": [
+        "decoder.denoising_class_embed.weight"
+      ]
+    }
+  ],
+  "historical_contemporaneous_split_bytes_verified": false
+}

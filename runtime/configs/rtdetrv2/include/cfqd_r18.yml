@@ -1,0 +1,80 @@
+task: detection
+model: CFQDCVSRRTDETR
+criterion: RTDETRCriterionv2
+postprocessor: RTDETRPostProcessor
+
+use_focal_loss: True
+eval_spatial_size: [640, 640]
+
+CFQDCVSRRTDETR:
+  backbone: PResNet
+  encoder: HybridEncoder
+  decoder: CFQDRTDETRTransformerv2
+  freeze_detector: True
+  enable_cvsr: False
+
+PResNet:
+  depth: 18
+  variant: d
+  freeze_at: -1
+  return_idx: [1, 2, 3]
+  num_stages: 4
+  freeze_norm: False
+  pretrained: True
+
+HybridEncoder:
+  in_channels: [128, 256, 512]
+  feat_strides: [8, 16, 32]
+  hidden_dim: 256
+  use_encoder_idx: [2]
+  num_encoder_layers: 1
+  nhead: 8
+  dim_feedforward: 1024
+  dropout: 0.0
+  enc_act: gelu
+  expansion: 0.5
+  depth_mult: 1
+  act: silu
+
+CFQDRTDETRTransformerv2:
+  feat_channels: [256, 256, 256]
+  feat_strides: [8, 16, 32]
+  hidden_dim: 256
+  num_levels: 3
+  num_layers: 3
+  num_queries: 300
+  num_denoising: 0
+  eval_idx: -1
+  aux_loss: False
+  num_points: [4, 4, 4]
+  cross_attn_method: default
+  query_select_method: default
+  taxonomy_path: D:/MY_DATA/02-project/sci_project/RT_DETR/Official/RT-DETR/rtdetrv2_pytorch/configs/dataset/scalevision_mm_v3_cfqd_taxonomy.json
+  cfqd_variant: full
+  cfqd_branch_start: 1
+  cfqd_adapter_dim: 64
+  cfqd_init_gamma: 0.0
+  cfqd_factor_scale_init: 0.01
+  cfqd_include_parent_siblings: True
+
+RTDETRPostProcessor:
+  num_top_queries: 300
+
+RTDETRCriterionv2:
+  weight_dict: {loss_vfl: 1, loss_bbox: 5, loss_giou: 2}
+  losses: ['vfl', 'boxes']
+  alpha: 0.75
+  gamma: 2.0
+  cfqd_base_vfl_weight: 0.0
+  cfqd_parent_weight: 0.2
+  cfqd_confusion_weight: 0.2
+  cfqd_state_weight: 0.1
+  cfqd_bhcl_weight: 0.0
+  cfqd_margin: 0.2
+  cfqd_temperature: 0.1
+  matcher:
+    type: HungarianMatcher
+    weight_dict: {cost_class: 2, cost_bbox: 5, cost_giou: 2}
+    alpha: 0.25
+    gamma: 2.0
+

@@ -1,0 +1,92 @@
+model: CFQDCVSRRTDETR
+postprocessor: RTDETRPostProcessor
+num_classes: 28
+use_focal_loss: true
+remap_mscoco_category: false
+eval_spatial_size:
+- 640
+- 640
+PResNet:
+  depth: 18
+  freeze_at: -1
+  freeze_norm: false
+  num_stages: 4
+  pretrained: false
+  return_idx:
+  - 1
+  - 2
+  - 3
+  variant: d
+HybridEncoder:
+  act: silu
+  depth_mult: 1
+  dim_feedforward: 1024
+  dropout: 0.0
+  enc_act: gelu
+  expansion: 0.5
+  feat_strides:
+  - 8
+  - 16
+  - 32
+  hidden_dim: 256
+  in_channels:
+  - 128
+  - 256
+  - 512
+  nhead: 8
+  num_encoder_layers: 1
+  use_encoder_idx:
+  - 2
+CFQDRTDETRTransformerv2:
+  aux_loss: false
+  cfqd_adapter_dim: 64
+  cfqd_branch_start: 1
+  cfqd_factor_scale_init: 0.01
+  cfqd_include_parent_siblings: true
+  cfqd_init_gamma: 0.0
+  cfqd_variant: factorized
+  cross_attn_method: default
+  eval_idx: -1
+  feat_channels:
+  - 256
+  - 256
+  - 256
+  feat_strides:
+  - 8
+  - 16
+  - 32
+  hidden_dim: 256
+  num_denoising: 0
+  num_layers: 3
+  num_levels: 3
+  num_points:
+  - 4
+  - 4
+  - 4
+  num_queries: 300
+  query_select_method: default
+  taxonomy_path: inputs/taxonomy.json
+CFQDCVSRRTDETR:
+  backbone: PResNet
+  cvsr_apply_during_training: false
+  cvsr_candidate_extra: 12
+  cvsr_candidate_iou_threshold: 0.9
+  cvsr_chain_min_threshold_g: 0.5
+  cvsr_evidence_clip: 6.0
+  cvsr_fixed_threshold_mode: true
+  cvsr_integrity_acceptance_ratio: 1.0
+  cvsr_require_independent_snapshot: false
+  cvsr_require_positive_mutual_margin: false
+  cvsr_residual_strength: 0.2
+  cvsr_scene_beta: 2.0
+  cvsr_scene_candidate_only: true
+  cvsr_sensor_sigma_floor_g: 0.25
+  cvsr_threshold_sigma_multiplier: 1.0
+  cvsr_total_min_threshold_g: 1.0
+  decoder: CFQDRTDETRTransformerv2
+  enable_cvsr: true
+  encoder: HybridEncoder
+  freeze_detector: true
+  physics_stats_path: inputs/prior.json
+  cvsr_count_refinement_strength: 0.0
+  cvsr_ambiguity_adapter_checkpoint: null

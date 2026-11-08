@@ -1,0 +1,18 @@
+{
+  "files": {
+    "c_ccm_annotations.json": {
+      "sha256": "db24de486e1d4e3c37fe592cd76598e202d2165818a2d91d2e1d8d1166f82bfd",
+      "bytes": 5834835
+    },
+    "CCCM_zip_members.json": {
+      "sha256": "65644f5ac89bb98872aaa098478051531519ae1602401cde68a9eeaec4539fa7",
+      "bytes": 2799643
+    },
+    "toolkit/annotations/ccm_train_annotation.json": {
+      "sha256": "b1ddf3e9d073db3d6e8a6ab3df7f0bfafc73a0e570138161f54260b78c89e9c1",
+      "bytes": 456292
+    }
+  },
+  "source": "Official C-CCM and CCM metadata plus the fixed C-CCM ZIP-member index",
+  "local_source_example": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\_active_runs\\CROSS_DOMAIN_DATASET_SEARCH_20261024_R1\\robotics_containers"
+}

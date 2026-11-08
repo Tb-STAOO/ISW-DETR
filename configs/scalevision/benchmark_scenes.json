@@ -1,0 +1,25 @@
+{
+  "image_ids": [
+    1,
+    13,
+    39,
+    168,
+    173,
+    192,
+    274,
+    288,
+    312,
+    374,
+    381,
+    390,
+    462,
+    471,
+    497,
+    573,
+    578,
+    595
+  ],
+  "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\_active_runs\\SR_RECTIFICATION_20261016_R1\\native_validation\\multiscene_benchmark\\summary.json",
+  "source_sha256": "f7ed8ee4d75bb4ef2faf272e30e1440aed65855034c8acc8335196a0399ecde5",
+  "selection": "Original locked validation scenes"
+}

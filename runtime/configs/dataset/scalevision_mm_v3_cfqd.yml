@@ -1,0 +1,19 @@
+__include__: ['./scalevision_mm_v3.yml']
+
+# CFQD trains only classification-side adapters, so geometric crops that alter
+# the frozen detector's query distribution are intentionally disabled.
+train_dataloader:
+  dataset:
+    transforms:
+      type: Compose
+      ops:
+        - {type: RandomPhotometricDistort, p: 0.5}
+        - {type: RandomHorizontalFlip}
+        - {type: Resize, size: [640, 640]}
+        - {type: ConvertPILImage, dtype: 'float32', scale: True}
+        - {type: ConvertBoxes, fmt: 'cxcywh', normalize: True}
+      policy:
+        name: default
+  collate_fn:
+    scales: ~
+

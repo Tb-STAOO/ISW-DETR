@@ -1,0 +1,44 @@
+{
+  "counts": {
+    "train": 2929,
+    "dev": 2829,
+    "test": 2969
+  },
+  "input_hashes": {
+    "annotations/train.json": "db183b93b8ce8d9c5c130f9b198f263a48acc21337c9676d9fab8ec79051a6ce",
+    "annotations/dev.json": "bd78d378157b6a55369bdca254562eea46c0c4161206644e6b6f556f2e0e5a6b",
+    "annotations/test.json": "36c218e6834218a2a0c8e1dfd66511d1b729f9888d7cfc62850674b5ccdf7aee",
+    "observations/train.json": "36492fa7e3dd95c56c50a61169f81350cb1e710ba1dd0d3ce634e6b42df29886",
+    "observations/dev.json": "cbde9b57fb363fb91dd6a57280e0ddd1644ec7714f7f4cfe638e49b896cd348c",
+    "observations/test.json": "3e4bc59f607608035d5b844da22de9ef1a7798dac9940ef8df73575724b08b53",
+    "evaluation_sidecars/train_owners.json": "c311daced38f46eff8012125f33a9b3050bd3f391cd84e33edeab1dbba751a80",
+    "evaluation_sidecars/dev_owners.json": "9d320b74898ab1803bb80084bb93982f3f6e0b5f6342bf211970f2e18b04c966",
+    "evaluation_sidecars/test_owners.json": "f8e0e5b5f0893cd5ef1e94cb501b9f5647de0b17958b7937db373e37d7cad36a",
+    "taxonomy.json": "c58e8d3d7b9b8cbc2bfcff2a65c4d0b449b39cafe0bb2ed0dae8aa1f164f8b02"
+  },
+  "pretrained_sha256": "2ace52184b620204004509b72752ac7bfe64aadaf7fc1d076b18df8ab5a5c77e",
+  "seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "scoring_coefficients": {
+    "alpha": 0.5,
+    "beta": 2.0,
+    "eta": 0.2,
+    "observation_sigma_g": 0.25,
+    "class_std_floor_g": 1.0
+  },
+  "training_budget": {
+    "shared_base_epochs": 20,
+    "flat_branch_epochs": 10,
+    "is_branch_epochs": 10,
+    "batch_size": 4,
+    "resolution": [
+      384,
+      384
+    ],
+    "branch_ema": false,
+    "checkpoint_selection": "dev RGB AP maximum"
+  }
+}

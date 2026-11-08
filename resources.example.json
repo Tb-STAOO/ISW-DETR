@@ -1,0 +1,5 @@
+{
+  "public_data_root": "E:/ISW_DETR_external_data/CCCM_full_20261024",
+  "private_weights_root": "E:/ISW_DETR_1022_delivery/portable_inference/weights",
+  "coco_pretrained": "D:/MY_DATA/02-project/sci_project/RT_DETR/Official/RT-DETR/rtdetrv2_pytorch/pretrained/rtdetrv2_r18vd_120e_coco_rerun_48.1.pth"
+}

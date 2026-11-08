@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "resource_archives": [
+    {
+      "group": "private-controls",
+      "file": "private-controls.zip",
+      "sha256": "67bcf9f2e673175dacd4ac870a13bc4723225efb7fb7f50c7de45f382fc5b4b2",
+      "bytes": 38561,
+      "members": 7
+    },
+    {
+      "group": "private-dataset",
+      "file": "private-dataset.zip",
+      "sha256": "645ba9ecf37be115bcc7f052e8295de08be87726476b2000f4ed14d16ef88d15",
+      "bytes": 351733193,
+      "members": 3688
+    },
+    {
+      "group": "private-inference",
+      "file": "private-inference.zip",
+      "sha256": "5a455332e184078d09e8561c8124316d46a527574577ce58c9c47b18a93d3cfb",
+      "bytes": 227359083,
+      "members": 7
+    },
+    {
+      "group": "private-training",
+      "file": "private-training.zip",
+      "sha256": "6aba00340e8f1aae39cae4986485246deb8ce6b0ddb22c2799e831c7b295651d",
+      "bytes": 1232678175,
+      "members": 9
+    },
+    {
+      "group": "public-checkpoints",
+      "file": "public-checkpoints.zip",
+      "sha256": "7913e1f3e7766b045233d476e304b4cfe4a2946120a9d19a486c8d6de05e3df5",
+      "bytes": 1793704010,
+      "members": 9
+    },
+    {
+      "group": "public-metadata",
+      "file": "public-metadata.zip",
+      "sha256": "0706879b90b165146034d9603822f731b816ff306412fc294ec747cfa28d4b25",
+      "bytes": 757026,
+      "members": 4
+    },
+    {
+      "group": "public-pretrained",
+      "file": "public-pretrained.zip",
+      "sha256": "fa2b6ae7c960ecd7e48f7d85c540e6abbd6fb268a6d956b3b35633fba10f6218",
+      "bytes": 75355884,
+      "members": 1
+    }
+  ],
+  "public_raw_images_in_archives": false,
+  "import_subdirectory_rule": "replace hyphens with underscores",
+  "public_source": "https://zenodo.org/records/4642577",
+  "private_assets_publicly_uploaded": false
+}

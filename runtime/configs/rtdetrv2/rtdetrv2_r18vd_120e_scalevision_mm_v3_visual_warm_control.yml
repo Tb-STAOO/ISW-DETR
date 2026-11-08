@@ -1,0 +1,6 @@
+__include__: [
+  './rtdetrv2_r18vd_120e_scalevision_mm_v3_visual.yml',
+]
+
+output_dir: D:/MY_DATA/02-project/sci_project/RT_DETR/Official/RT-DETR/rtdetrv2_pytorch/output/SVMM_VISUAL_WARM_CONTROL_v3
+

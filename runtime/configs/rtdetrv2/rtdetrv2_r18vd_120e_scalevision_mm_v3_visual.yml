@@ -1,0 +1,37 @@
+__include__: [
+  '../runtime.yml',
+  './include/dataloader.yml',
+  './include/optimizer.yml',
+  './include/rtdetrv2_r50vd.yml',
+  '../dataset/scalevision_mm_v3.yml',
+]
+
+output_dir: D:/MY_DATA/02-project/sci_project/RT_DETR/Official/RT-DETR/rtdetrv2_pytorch/output/SVMM_B0_R18_visual_v3
+
+num_classes: 28
+remap_mscoco_category: False
+
+PResNet:
+  depth: 18
+  freeze_at: -1
+  freeze_norm: False
+  pretrained: True
+
+HybridEncoder:
+  in_channels: [128, 256, 512]
+  hidden_dim: 256
+  expansion: 0.5
+
+RTDETRTransformerv2:
+  num_layers: 3
+
+epoches: 120
+print_freq: 100
+checkpoint_freq: 1000
+
+optimizer:
+  type: AdamW
+  params:
+    -
+      params: '^(?=.*(?:norm|bn)).*$'
+      weight_decay: 0.

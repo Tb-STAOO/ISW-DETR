@@ -1,0 +1,210 @@
+print_freq: 100
+output_dir: E:/ISW_DETR_external_data/CCCM_full_20261024/runs/is_seed42
+checkpoint_freq: 1000
+sync_bn: false
+find_unused_parameters: false
+use_amp: true
+scaler:
+  type: GradScaler
+  enabled: true
+use_ema: false
+ema:
+  type: ModelEMA
+  decay: 0.9999
+  warmups: 2000
+train_dataloader:
+  dataset:
+    transforms:
+      ops:
+      - type: RandomPhotometricDistort
+        p: 0.5
+      - type: RandomHorizontalFlip
+        p: 0.5
+      - type: Resize
+        size:
+        - 384
+        - 384
+      - type: SanitizeBoundingBoxes
+        min_size: 1
+      - type: ConvertPILImage
+        dtype: float32
+        scale: true
+      - type: ConvertBoxes
+        fmt: cxcywh
+        normalize: true
+      policy: null
+      type: Compose
+    type: CocoDetection
+    img_folder: E:/ISW_DETR_external_data/CCCM_full_20261024/
+    ann_file: E:/ISW_DETR_external_data/CCCM_full_20261024/annotations/train.json
+    return_masks: false
+  collate_fn:
+    type: BatchImageCollateFunction
+    scales: null
+    stop_epoch: 71
+  shuffle: true
+  total_batch_size: 4
+  num_workers: 0
+  type: DataLoader
+  drop_last: true
+val_dataloader:
+  dataset:
+    transforms:
+      ops:
+      - type: Resize
+        size:
+        - 384
+        - 384
+      - type: ConvertPILImage
+        dtype: float32
+        scale: true
+      type: Compose
+    type: CocoDetection
+    img_folder: E:/ISW_DETR_external_data/CCCM_full_20261024/
+    ann_file: E:/ISW_DETR_external_data/CCCM_full_20261024/annotations/dev.json
+    return_masks: false
+  shuffle: false
+  total_batch_size: 8
+  num_workers: 0
+  type: DataLoader
+  drop_last: false
+  collate_fn:
+    type: BatchImageCollateFunction
+epoches: 10
+clip_max_norm: 0.1
+optimizer:
+  type: AdamW
+  params:
+  - params: ^decoder[.]cfqd_.*$
+    lr: 0.0001
+  lr: 0.0001
+  betas:
+  - 0.9
+  - 0.999
+  weight_decay: 0.0001
+lr_scheduler:
+  type: MultiStepLR
+  milestones:
+  - 8
+  gamma: 0.1
+lr_warmup_scheduler:
+  type: LinearWarmup
+  warmup_duration: 100
+task: detection
+model: CFQDCVSRRTDETR
+criterion: RTDETRCriterionv2
+postprocessor: RTDETRPostProcessor
+use_focal_loss: true
+eval_spatial_size:
+- 384
+- 384
+CFQDCVSRRTDETR:
+  backbone: PResNet
+  encoder: HybridEncoder
+  decoder: CFQDRTDETRTransformerv2
+  freeze_detector: true
+  enable_cvsr: false
+PResNet:
+  depth: 18
+  variant: d
+  freeze_at: -1
+  return_idx:
+  - 1
+  - 2
+  - 3
+  num_stages: 4
+  freeze_norm: false
+  pretrained: false
+HybridEncoder:
+  in_channels:
+  - 128
+  - 256
+  - 512
+  feat_strides:
+  - 8
+  - 16
+  - 32
+  hidden_dim: 256
+  use_encoder_idx:
+  - 2
+  num_encoder_layers: 1
+  nhead: 8
+  dim_feedforward: 1024
+  dropout: 0.0
+  enc_act: gelu
+  expansion: 0.5
+  depth_mult: 1
+  act: silu
+CFQDRTDETRTransformerv2:
+  feat_channels:
+  - 256
+  - 256
+  - 256
+  feat_strides:
+  - 8
+  - 16
+  - 32
+  hidden_dim: 256
+  num_levels: 3
+  num_layers: 3
+  num_queries: 300
+  num_denoising: 0
+  eval_idx: -1
+  aux_loss: false
+  num_points:
+  - 4
+  - 4
+  - 4
+  cross_attn_method: default
+  query_select_method: default
+  taxonomy_path: E:/ISW_DETR_external_data/CCCM_full_20261024/taxonomy.json
+  cfqd_variant: factorized
+  cfqd_branch_start: 1
+  cfqd_adapter_dim: 64
+  cfqd_init_gamma: 0.0
+  cfqd_factor_scale_init: 0.01
+  cfqd_include_parent_siblings: true
+  cfqd_num_states: 7
+  cfqd_enable_state_attention: false
+RTDETRPostProcessor:
+  num_top_queries: 300
+RTDETRCriterionv2:
+  weight_dict:
+    loss_vfl: 1
+    loss_bbox: 5
+    loss_giou: 2
+  losses:
+  - vfl
+  - boxes
+  alpha: 0.75
+  gamma: 2.0
+  cfqd_base_vfl_weight: 0.0
+  cfqd_parent_weight: 0.2
+  cfqd_confusion_weight: 0.0
+  cfqd_state_weight: 0.1
+  cfqd_bhcl_weight: 0.0
+  cfqd_margin: 0.2
+  cfqd_temperature: 0.1
+  matcher:
+    type: HungarianMatcher
+    weight_dict:
+      cost_class: 2
+      cost_bbox: 5
+      cost_giou: 2
+    alpha: 0.25
+    gamma: 2.0
+  cfqd_state_attention_weight: 0.0
+evaluator:
+  type: CocoEvaluator
+  iou_types:
+  - bbox
+num_classes: 42
+remap_mscoco_category: false
+early_stop:
+  enabled: false
+  metric: coco_eval_bbox
+  mode: max
+  patience: 7
+  min_delta: 0.0001
+  min_epoch: 12
+device: cuda

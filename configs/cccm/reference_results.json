@@ -1,0 +1,5496 @@
+{
+  "status": "complete",
+  "created_utc": "2026-10-25T01:11:49.035533+00:00",
+  "models": 9,
+  "readouts_per_model": 7,
+  "total_configurations": 63,
+  "seeds": [
+    42,
+    3407,
+    2026
+  ],
+  "metrics_reported": [
+    "AP",
+    "parent_AP",
+    "top1_fine_accuracy_pct",
+    "top1_state_accuracy_pct",
+    "top1_fine_and_iou50_accuracy_pct"
+  ],
+  "rows": [
+    {
+      "training_seed": 42,
+      "visual_variant": "base",
+      "method": "rgb",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 14.779509434802163,
+        "AP50": 23.707498425909314,
+        "AP75": 16.523965676759605,
+        "AP_small": null,
+        "AP_medium": 4.396386567448388,
+        "AP_large": 22.443374571011628,
+        "AR1": 57.5405223747355,
+        "AR10": 66.16604580048298,
+        "AR100": 66.5334527403899,
+        "AR_small": null,
+        "AR_medium": 85.75555555555556,
+        "AR_large": 66.32141622842597,
+        "matched_fine_accuracy_pct": 25.46086956521739,
+        "matched_parent_accuracy_pct": 58.85217391304348,
+        "all_gt_fine_accuracy_pct": 24.65476591444931,
+        "all_gt_parent_accuracy_pct": 56.98888514651398,
+        "fine_correct": 732,
+        "parent_correct": 1692,
+        "state_correct": 1286,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 2134,
+        "matched_state_accuracy_pct": 44.7304347826087,
+        "all_gt_state_accuracy_pct": 43.31424722128663,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 24.01481980464803,
+        "top1_parent_accuracy_pct": 53.85651734590771,
+        "top1_state_accuracy_pct": 43.17952172448636,
+        "top1_fine_and_iou50_accuracy_pct": 22.398113843044797,
+        "top1_mean_iou": 0.7099063186234854,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 26.332407450427723,
+        "parent_AP50": 44.253493807298184,
+        "delta_AP_vs_fixed_pp": -38.76249933859681,
+        "delta_AP_vs_rgb_pp": 0.0
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed42_test\\test_summary.json",
+      "summary_sha256": "881d2024c9d9b43e113bf22513eeaa8b7c7e4c6761be72855aad83ac4f5e4a45"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "base",
+      "method": "gaussian_broadcast",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 53.542008773398976,
+        "AP50": 81.40101336552284,
+        "AP75": 60.52710926758223,
+        "AP_small": null,
+        "AP_medium": 38.837180193275636,
+        "AP_large": 59.863393506347784,
+        "AR1": 57.92314014539264,
+        "AR10": 67.74077750425562,
+        "AR100": 69.0869540311532,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.8617649189767,
+        "matched_fine_accuracy_pct": 99.68695652173913,
+        "matched_parent_accuracy_pct": 99.68695652173913,
+        "all_gt_fine_accuracy_pct": 96.53081845739307,
+        "all_gt_parent_accuracy_pct": 96.53081845739307,
+        "fine_correct": 2866,
+        "parent_correct": 2866,
+        "state_correct": 2868,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.75652173913043,
+        "all_gt_state_accuracy_pct": 96.5981812057932,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.09060289659818,
+        "top1_parent_accuracy_pct": 99.09060289659818,
+        "top1_state_accuracy_pct": 99.52846076119906,
+        "top1_fine_and_iou50_accuracy_pct": 83.52980801616705,
+        "top1_mean_iou": 0.705801512231639,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.10403988808204,
+        "parent_AP50": 71.98493140007682,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 38.76249933859681
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed42_test\\test_summary.json",
+      "summary_sha256": "881d2024c9d9b43e113bf22513eeaa8b7c7e4c6761be72855aad83ac4f5e4a45"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "base",
+      "method": "original_original",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 53.542008773398976,
+        "AP50": 81.40101336552284,
+        "AP75": 60.52710926758223,
+        "AP_small": null,
+        "AP_medium": 38.837180193275636,
+        "AP_large": 59.863393506347784,
+        "AR1": 57.92314014539264,
+        "AR10": 67.74077750425562,
+        "AR100": 69.0869540311532,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.8617649189767,
+        "matched_fine_accuracy_pct": 99.68695652173913,
+        "matched_parent_accuracy_pct": 99.68695652173913,
+        "all_gt_fine_accuracy_pct": 96.53081845739307,
+        "all_gt_parent_accuracy_pct": 96.53081845739307,
+        "fine_correct": 2866,
+        "parent_correct": 2866,
+        "state_correct": 2868,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.75652173913043,
+        "all_gt_state_accuracy_pct": 96.5981812057932,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.09060289659818,
+        "top1_parent_accuracy_pct": 99.09060289659818,
+        "top1_state_accuracy_pct": 99.52846076119906,
+        "top1_fine_and_iou50_accuracy_pct": 83.52980801616705,
+        "top1_mean_iou": 0.705801512231639,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.10403988808204,
+        "parent_AP50": 71.98493140007682,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 38.76249933859681
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed42_test\\test_summary.json",
+      "summary_sha256": "881d2024c9d9b43e113bf22513eeaa8b7c7e4c6761be72855aad83ac4f5e4a45"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "base",
+      "method": "original_half",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 56.445119416588376,
+        "AP50": 85.53457980871868,
+        "AP75": 64.12761314105924,
+        "AP_small": null,
+        "AP_medium": 36.87560118254902,
+        "AP_large": 61.23357641008054,
+        "AR1": 58.977140503440076,
+        "AR10": 67.76938475961379,
+        "AR100": 69.0869540311532,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.8617649189767,
+        "matched_fine_accuracy_pct": 99.79130434782608,
+        "matched_parent_accuracy_pct": 99.79130434782608,
+        "all_gt_fine_accuracy_pct": 96.63186257999327,
+        "all_gt_parent_accuracy_pct": 96.63186257999327,
+        "fine_correct": 2869,
+        "parent_correct": 2869,
+        "state_correct": 2871,
+        "corrected_vs_fixed": 3,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.86086956521739,
+        "all_gt_state_accuracy_pct": 96.6992253283934,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.25900976759851,
+        "top1_parent_accuracy_pct": 99.25900976759851,
+        "top1_state_accuracy_pct": 99.56214213539913,
+        "top1_fine_and_iou50_accuracy_pct": 85.51700909397104,
+        "top1_mean_iou": 0.7220286588112399,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 51.384573540395074,
+        "parent_AP50": 79.26150951171024,
+        "delta_AP_vs_fixed_pp": 2.9031106431894003,
+        "delta_AP_vs_rgb_pp": 41.66560998178621
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed42_test\\test_summary.json",
+      "summary_sha256": "881d2024c9d9b43e113bf22513eeaa8b7c7e4c6761be72855aad83ac4f5e4a45"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "base",
+      "method": "mean_original",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 53.542008773398976,
+        "AP50": 81.40101336552284,
+        "AP75": 60.52710926758223,
+        "AP_small": null,
+        "AP_medium": 38.837180193275636,
+        "AP_large": 59.863393506347784,
+        "AR1": 57.92314014539264,
+        "AR10": 67.74077750425562,
+        "AR100": 69.0869540311532,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.8617649189767,
+        "matched_fine_accuracy_pct": 99.68695652173913,
+        "matched_parent_accuracy_pct": 99.68695652173913,
+        "all_gt_fine_accuracy_pct": 96.53081845739307,
+        "all_gt_parent_accuracy_pct": 96.53081845739307,
+        "fine_correct": 2866,
+        "parent_correct": 2866,
+        "state_correct": 2868,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.75652173913043,
+        "all_gt_state_accuracy_pct": 96.5981812057932,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.09060289659818,
+        "top1_parent_accuracy_pct": 99.09060289659818,
+        "top1_state_accuracy_pct": 99.52846076119906,
+        "top1_fine_and_iou50_accuracy_pct": 83.52980801616705,
+        "top1_mean_iou": 0.705801512231639,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.10403988808204,
+        "parent_AP50": 71.98493140007682,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 38.76249933859681
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed42_test\\test_summary.json",
+      "summary_sha256": "881d2024c9d9b43e113bf22513eeaa8b7c7e4c6761be72855aad83ac4f5e4a45"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "base",
+      "method": "mean_full",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 56.16795512645073,
+        "AP50": 85.16958082552117,
+        "AP75": 64.08109316495502,
+        "AP_small": null,
+        "AP_medium": 35.15830228281673,
+        "AP_large": 61.63767660086093,
+        "AR1": 59.21503842668399,
+        "AR10": 67.77746693911038,
+        "AR100": 69.0869540311532,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.8617649189767,
+        "matched_fine_accuracy_pct": 99.72173913043478,
+        "matched_parent_accuracy_pct": 99.72173913043478,
+        "all_gt_fine_accuracy_pct": 96.56449983159312,
+        "all_gt_parent_accuracy_pct": 96.56449983159312,
+        "fine_correct": 2867,
+        "parent_correct": 2867,
+        "state_correct": 2868,
+        "corrected_vs_fixed": 9,
+        "harmed_vs_fixed": 8,
+        "matched_state_accuracy_pct": 99.75652173913043,
+        "all_gt_state_accuracy_pct": 96.5981812057932,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.49477938699899,
+        "top1_parent_accuracy_pct": 99.49477938699899,
+        "top1_state_accuracy_pct": 99.6968676321994,
+        "top1_fine_and_iou50_accuracy_pct": 86.29168070057258,
+        "top1_mean_iou": 0.7290324488872468,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 50.97958883239371,
+        "parent_AP50": 78.62206989429936,
+        "delta_AP_vs_fixed_pp": 2.625946353051752,
+        "delta_AP_vs_rgb_pp": 41.38844569164856
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed42_test\\test_summary.json",
+      "summary_sha256": "881d2024c9d9b43e113bf22513eeaa8b7c7e4c6761be72855aad83ac4f5e4a45"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "base",
+      "method": "mean_half",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 56.445119416588376,
+        "AP50": 85.53457980871868,
+        "AP75": 64.12761314105924,
+        "AP_small": null,
+        "AP_medium": 36.87560118254902,
+        "AP_large": 61.23357641008054,
+        "AR1": 58.977140503440076,
+        "AR10": 67.76938475961379,
+        "AR100": 69.0869540311532,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.8617649189767,
+        "matched_fine_accuracy_pct": 99.79130434782608,
+        "matched_parent_accuracy_pct": 99.79130434782608,
+        "all_gt_fine_accuracy_pct": 96.63186257999327,
+        "all_gt_parent_accuracy_pct": 96.63186257999327,
+        "fine_correct": 2869,
+        "parent_correct": 2869,
+        "state_correct": 2871,
+        "corrected_vs_fixed": 3,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.86086956521739,
+        "all_gt_state_accuracy_pct": 96.6992253283934,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.25900976759851,
+        "top1_parent_accuracy_pct": 99.25900976759851,
+        "top1_state_accuracy_pct": 99.56214213539913,
+        "top1_fine_and_iou50_accuracy_pct": 85.51700909397104,
+        "top1_mean_iou": 0.7220286588112399,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 51.384573540395074,
+        "parent_AP50": 79.26150951171024,
+        "delta_AP_vs_fixed_pp": 2.9031106431894003,
+        "delta_AP_vs_rgb_pp": 41.66560998178621
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed42_test\\test_summary.json",
+      "summary_sha256": "881d2024c9d9b43e113bf22513eeaa8b7c7e4c6761be72855aad83ac4f5e4a45"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "flat",
+      "method": "rgb",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 11.106181135195252,
+        "AP50": 18.437662053860457,
+        "AP75": 11.654832003755315,
+        "AP_small": null,
+        "AP_medium": 5.255655689202623,
+        "AP_large": 18.59753984463166,
+        "AR1": 49.63365082207984,
+        "AR10": 59.532395606037305,
+        "AR100": 60.284697792343835,
+        "AR_small": null,
+        "AR_medium": 79.8111111111111,
+        "AR_large": 60.03727649645314,
+        "matched_fine_accuracy_pct": 22.54249815225425,
+        "matched_parent_accuracy_pct": 49.81522542498152,
+        "all_gt_fine_accuracy_pct": 20.54563826204109,
+        "all_gt_parent_accuracy_pct": 45.4024924216908,
+        "fine_correct": 610,
+        "parent_correct": 1348,
+        "state_correct": 1202,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 2088,
+        "matched_state_accuracy_pct": 44.41980783444198,
+        "all_gt_state_accuracy_pct": 40.48501178848097,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 18.827888177837657,
+        "top1_parent_accuracy_pct": 42.37116874368474,
+        "top1_state_accuracy_pct": 39.64297743347929,
+        "top1_fine_and_iou50_accuracy_pct": 17.143819467834287,
+        "top1_mean_iou": 0.6247787878942638,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 18.03030783530924,
+        "parent_AP50": 31.197404289000875,
+        "delta_AP_vs_fixed_pp": -33.26824653059662,
+        "delta_AP_vs_rgb_pp": 0.0
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed42_test\\test_summary.json",
+      "summary_sha256": "7ae377fc7b62a05516a6772d1df98777dc1a3b706ad825b9ae79523e84c5dba7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "flat",
+      "method": "gaussian_broadcast",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 44.37442766579187,
+        "AP50": 69.74913874980345,
+        "AP75": 48.18838227795137,
+        "AP_small": null,
+        "AP_medium": 34.89228780250331,
+        "AP_large": 52.25438107404796,
+        "AR1": 50.22358259905124,
+        "AR10": 61.270432551958834,
+        "AR100": 63.656088206625036,
+        "AR_small": null,
+        "AR_medium": 79.8111111111111,
+        "AR_large": 63.466506397578684,
+        "matched_fine_accuracy_pct": 99.70436067997043,
+        "matched_parent_accuracy_pct": 99.70436067997043,
+        "all_gt_fine_accuracy_pct": 90.87234759178175,
+        "all_gt_parent_accuracy_pct": 90.87234759178175,
+        "fine_correct": 2698,
+        "parent_correct": 2698,
+        "state_correct": 2703,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.88913525498891,
+        "all_gt_state_accuracy_pct": 91.04075446278208,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.28224991579657,
+        "top1_parent_accuracy_pct": 98.28224991579657,
+        "top1_state_accuracy_pct": 98.92219602559784,
+        "top1_fine_and_iou50_accuracy_pct": 74.23374873694847,
+        "top1_mean_iou": 0.6375985524871353,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 36.75204827636663,
+        "parent_AP50": 59.47635043381858,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 33.26824653059662
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed42_test\\test_summary.json",
+      "summary_sha256": "7ae377fc7b62a05516a6772d1df98777dc1a3b706ad825b9ae79523e84c5dba7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "flat",
+      "method": "original_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 44.37442766579187,
+        "AP50": 69.74913874980345,
+        "AP75": 48.18838227795137,
+        "AP_small": null,
+        "AP_medium": 34.89228780250331,
+        "AP_large": 52.25438107404796,
+        "AR1": 50.22358259905124,
+        "AR10": 61.270432551958834,
+        "AR100": 63.656088206625036,
+        "AR_small": null,
+        "AR_medium": 79.8111111111111,
+        "AR_large": 63.466506397578684,
+        "matched_fine_accuracy_pct": 99.70436067997043,
+        "matched_parent_accuracy_pct": 99.70436067997043,
+        "all_gt_fine_accuracy_pct": 90.87234759178175,
+        "all_gt_parent_accuracy_pct": 90.87234759178175,
+        "fine_correct": 2698,
+        "parent_correct": 2698,
+        "state_correct": 2703,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.88913525498891,
+        "all_gt_state_accuracy_pct": 91.04075446278208,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.28224991579657,
+        "top1_parent_accuracy_pct": 98.28224991579657,
+        "top1_state_accuracy_pct": 98.92219602559784,
+        "top1_fine_and_iou50_accuracy_pct": 74.23374873694847,
+        "top1_mean_iou": 0.6375985524871353,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 36.75204827636663,
+        "parent_AP50": 59.47635043381858,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 33.26824653059662
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed42_test\\test_summary.json",
+      "summary_sha256": "7ae377fc7b62a05516a6772d1df98777dc1a3b706ad825b9ae79523e84c5dba7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "flat",
+      "method": "original_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 47.3480836960207,
+        "AP50": 73.9198014777284,
+        "AP75": 51.648938792121456,
+        "AP_small": null,
+        "AP_medium": 30.21151100516227,
+        "AP_large": 54.102054975987016,
+        "AR1": 51.724461422466526,
+        "AR10": 61.32248390182144,
+        "AR100": 63.656088206625036,
+        "AR_small": null,
+        "AR_medium": 79.8111111111111,
+        "AR_large": 63.466506397578684,
+        "matched_fine_accuracy_pct": 99.81522542498152,
+        "matched_parent_accuracy_pct": 99.81522542498152,
+        "all_gt_fine_accuracy_pct": 90.97339171438195,
+        "all_gt_parent_accuracy_pct": 90.97339171438195,
+        "fine_correct": 2701,
+        "parent_correct": 2701,
+        "state_correct": 2706,
+        "corrected_vs_fixed": 3,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 100.0,
+        "all_gt_state_accuracy_pct": 91.14179858538229,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.09060289659818,
+        "top1_parent_accuracy_pct": 99.09060289659818,
+        "top1_state_accuracy_pct": 99.29269114179858,
+        "top1_fine_and_iou50_accuracy_pct": 77.1977096665544,
+        "top1_mean_iou": 0.6610673122955585,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 41.15078871855351,
+        "parent_AP50": 65.76504521579297,
+        "delta_AP_vs_fixed_pp": 2.973656030228831,
+        "delta_AP_vs_rgb_pp": 36.24190256082545
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed42_test\\test_summary.json",
+      "summary_sha256": "7ae377fc7b62a05516a6772d1df98777dc1a3b706ad825b9ae79523e84c5dba7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "flat",
+      "method": "mean_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 44.37442766579187,
+        "AP50": 69.74913874980345,
+        "AP75": 48.18838227795137,
+        "AP_small": null,
+        "AP_medium": 34.89228780250331,
+        "AP_large": 52.25438107404796,
+        "AR1": 50.22358259905124,
+        "AR10": 61.270432551958834,
+        "AR100": 63.656088206625036,
+        "AR_small": null,
+        "AR_medium": 79.8111111111111,
+        "AR_large": 63.466506397578684,
+        "matched_fine_accuracy_pct": 99.70436067997043,
+        "matched_parent_accuracy_pct": 99.70436067997043,
+        "all_gt_fine_accuracy_pct": 90.87234759178175,
+        "all_gt_parent_accuracy_pct": 90.87234759178175,
+        "fine_correct": 2698,
+        "parent_correct": 2698,
+        "state_correct": 2703,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.88913525498891,
+        "all_gt_state_accuracy_pct": 91.04075446278208,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.28224991579657,
+        "top1_parent_accuracy_pct": 98.28224991579657,
+        "top1_state_accuracy_pct": 98.92219602559784,
+        "top1_fine_and_iou50_accuracy_pct": 74.23374873694847,
+        "top1_mean_iou": 0.6375985524871353,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 36.75204827636663,
+        "parent_AP50": 59.47635043381858,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 33.26824653059662
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed42_test\\test_summary.json",
+      "summary_sha256": "7ae377fc7b62a05516a6772d1df98777dc1a3b706ad825b9ae79523e84c5dba7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "flat",
+      "method": "mean_full",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 46.3450111936227,
+        "AP50": 72.18880428105983,
+        "AP75": 51.089228818380896,
+        "AP_small": null,
+        "AP_medium": 23.714928178373338,
+        "AP_large": 54.459675220763735,
+        "AR1": 51.1690648008587,
+        "AR10": 61.42602139288981,
+        "AR100": 63.656088206625036,
+        "AR_small": null,
+        "AR_medium": 79.8111111111111,
+        "AR_large": 63.466506397578684,
+        "matched_fine_accuracy_pct": 99.48263118994826,
+        "matched_parent_accuracy_pct": 99.48263118994826,
+        "all_gt_fine_accuracy_pct": 90.67025934658135,
+        "all_gt_parent_accuracy_pct": 90.67025934658135,
+        "fine_correct": 2692,
+        "parent_correct": 2692,
+        "state_correct": 2698,
+        "corrected_vs_fixed": 3,
+        "harmed_vs_fixed": 9,
+        "matched_state_accuracy_pct": 99.70436067997043,
+        "all_gt_state_accuracy_pct": 90.87234759178175,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.09060289659818,
+        "top1_parent_accuracy_pct": 99.09060289659818,
+        "top1_state_accuracy_pct": 99.39373526439879,
+        "top1_fine_and_iou50_accuracy_pct": 76.38935668575277,
+        "top1_mean_iou": 0.6548501425390127,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 41.1010879814317,
+        "parent_AP50": 65.23722929502861,
+        "delta_AP_vs_fixed_pp": 1.9705835278308328,
+        "delta_AP_vs_rgb_pp": 35.23883005842745
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed42_test\\test_summary.json",
+      "summary_sha256": "7ae377fc7b62a05516a6772d1df98777dc1a3b706ad825b9ae79523e84c5dba7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "flat",
+      "method": "mean_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 47.3480836960207,
+        "AP50": 73.9198014777284,
+        "AP75": 51.648938792121456,
+        "AP_small": null,
+        "AP_medium": 30.21151100516227,
+        "AP_large": 54.102054975987016,
+        "AR1": 51.724461422466526,
+        "AR10": 61.32248390182144,
+        "AR100": 63.656088206625036,
+        "AR_small": null,
+        "AR_medium": 79.8111111111111,
+        "AR_large": 63.466506397578684,
+        "matched_fine_accuracy_pct": 99.81522542498152,
+        "matched_parent_accuracy_pct": 99.81522542498152,
+        "all_gt_fine_accuracy_pct": 90.97339171438195,
+        "all_gt_parent_accuracy_pct": 90.97339171438195,
+        "fine_correct": 2701,
+        "parent_correct": 2701,
+        "state_correct": 2706,
+        "corrected_vs_fixed": 3,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 100.0,
+        "all_gt_state_accuracy_pct": 91.14179858538229,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.09060289659818,
+        "top1_parent_accuracy_pct": 99.09060289659818,
+        "top1_state_accuracy_pct": 99.29269114179858,
+        "top1_fine_and_iou50_accuracy_pct": 77.1977096665544,
+        "top1_mean_iou": 0.6610673122955585,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 41.15078871855351,
+        "parent_AP50": 65.76504521579297,
+        "delta_AP_vs_fixed_pp": 2.973656030228831,
+        "delta_AP_vs_rgb_pp": 36.24190256082545
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed42_test\\test_summary.json",
+      "summary_sha256": "7ae377fc7b62a05516a6772d1df98777dc1a3b706ad825b9ae79523e84c5dba7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "is",
+      "method": "rgb",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 14.889503965485376,
+        "AP50": 24.087643552060435,
+        "AP75": 16.56941620873207,
+        "AP_small": null,
+        "AP_medium": 3.6625338333701594,
+        "AP_large": 23.173172105159274,
+        "AR1": 56.12209659534724,
+        "AR10": 64.25370499900225,
+        "AR100": 64.78701800346123,
+        "AR_small": null,
+        "AR_medium": 82.15555555555555,
+        "AR_large": 64.7088479223414,
+        "matched_fine_accuracy_pct": 24.956247812390618,
+        "matched_parent_accuracy_pct": 56.142807140357014,
+        "all_gt_fine_accuracy_pct": 24.01481980464803,
+        "all_gt_parent_accuracy_pct": 54.02492421690805,
+        "fine_correct": 713,
+        "parent_correct": 1604,
+        "state_correct": 1277,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 2132,
+        "matched_state_accuracy_pct": 44.697234861743084,
+        "all_gt_state_accuracy_pct": 43.01111485348602,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 22.937015830245873,
+        "top1_parent_accuracy_pct": 50.52206130010104,
+        "top1_state_accuracy_pct": 42.60693836308521,
+        "top1_fine_and_iou50_accuracy_pct": 21.286628494442574,
+        "top1_mean_iou": 0.706122079626961,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 25.568932878775097,
+        "parent_AP50": 43.58746977707524,
+        "delta_AP_vs_fixed_pp": -37.29776552846734,
+        "delta_AP_vs_rgb_pp": 0.0
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed42_test\\test_summary.json",
+      "summary_sha256": "67181c04f46475e4d84222f2074ff5959319001731ed4e64b39303da2d5570a7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "is",
+      "method": "gaussian_broadcast",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.18726949395271,
+        "AP50": 79.6280500123775,
+        "AP75": 58.921544575917785,
+        "AP_small": null,
+        "AP_medium": 36.76475520751952,
+        "AP_large": 58.97179855645077,
+        "AR1": 56.62143964928808,
+        "AR10": 66.94693496468496,
+        "AR100": 68.65692320748579,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.4269398428869,
+        "matched_fine_accuracy_pct": 99.57997899894995,
+        "matched_parent_accuracy_pct": 99.57997899894995,
+        "all_gt_fine_accuracy_pct": 95.82350959919165,
+        "all_gt_parent_accuracy_pct": 95.82350959919165,
+        "fine_correct": 2845,
+        "parent_correct": 2845,
+        "state_correct": 2848,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.68498424921246,
+        "all_gt_state_accuracy_pct": 95.92455372179185,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.6527450319973,
+        "top1_parent_accuracy_pct": 98.6527450319973,
+        "top1_state_accuracy_pct": 99.49477938699899,
+        "top1_fine_and_iou50_accuracy_pct": 81.8457393061637,
+        "top1_mean_iou": 0.6906034601804918,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 45.23033111817435,
+        "parent_AP50": 70.731579431936,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.29776552846734
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed42_test\\test_summary.json",
+      "summary_sha256": "67181c04f46475e4d84222f2074ff5959319001731ed4e64b39303da2d5570a7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "is",
+      "method": "original_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.18726949395271,
+        "AP50": 79.6280500123775,
+        "AP75": 58.921544575917785,
+        "AP_small": null,
+        "AP_medium": 36.76475520751952,
+        "AP_large": 58.97179855645077,
+        "AR1": 56.62143964928808,
+        "AR10": 66.94693496468496,
+        "AR100": 68.65692320748579,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.4269398428869,
+        "matched_fine_accuracy_pct": 99.57997899894995,
+        "matched_parent_accuracy_pct": 99.57997899894995,
+        "all_gt_fine_accuracy_pct": 95.82350959919165,
+        "all_gt_parent_accuracy_pct": 95.82350959919165,
+        "fine_correct": 2845,
+        "parent_correct": 2845,
+        "state_correct": 2848,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.68498424921246,
+        "all_gt_state_accuracy_pct": 95.92455372179185,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.6527450319973,
+        "top1_parent_accuracy_pct": 98.6527450319973,
+        "top1_state_accuracy_pct": 99.49477938699899,
+        "top1_fine_and_iou50_accuracy_pct": 81.8457393061637,
+        "top1_mean_iou": 0.6906034601804918,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 45.23033111817435,
+        "parent_AP50": 70.731579431936,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.29776552846734
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed42_test\\test_summary.json",
+      "summary_sha256": "67181c04f46475e4d84222f2074ff5959319001731ed4e64b39303da2d5570a7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "is",
+      "method": "original_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 54.7003354058365,
+        "AP50": 83.3608669945513,
+        "AP75": 62.05877253173241,
+        "AP_small": null,
+        "AP_medium": 34.03060161413758,
+        "AP_large": 60.68483611658229,
+        "AR1": 58.443574716162125,
+        "AR10": 67.08587992424238,
+        "AR100": 68.65692320748579,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.4269398428869,
+        "matched_fine_accuracy_pct": 99.61498074903746,
+        "matched_parent_accuracy_pct": 99.61498074903746,
+        "all_gt_fine_accuracy_pct": 95.85719097339171,
+        "all_gt_parent_accuracy_pct": 95.85719097339171,
+        "fine_correct": 2846,
+        "parent_correct": 2846,
+        "state_correct": 2848,
+        "corrected_vs_fixed": 2,
+        "harmed_vs_fixed": 1,
+        "matched_state_accuracy_pct": 99.68498424921246,
+        "all_gt_state_accuracy_pct": 95.92455372179185,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.05692152239811,
+        "top1_parent_accuracy_pct": 99.05692152239811,
+        "top1_state_accuracy_pct": 99.49477938699899,
+        "top1_fine_and_iou50_accuracy_pct": 84.91074435836983,
+        "top1_mean_iou": 0.7174648351188334,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 49.382687187062444,
+        "parent_AP50": 76.62988762116449,
+        "delta_AP_vs_fixed_pp": 2.5130659118837855,
+        "delta_AP_vs_rgb_pp": 39.81083144035112
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed42_test\\test_summary.json",
+      "summary_sha256": "67181c04f46475e4d84222f2074ff5959319001731ed4e64b39303da2d5570a7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "is",
+      "method": "mean_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.18726949395271,
+        "AP50": 79.6280500123775,
+        "AP75": 58.921544575917785,
+        "AP_small": null,
+        "AP_medium": 36.76475520751952,
+        "AP_large": 58.97179855645077,
+        "AR1": 56.62143964928808,
+        "AR10": 66.94693496468496,
+        "AR100": 68.65692320748579,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.4269398428869,
+        "matched_fine_accuracy_pct": 99.57997899894995,
+        "matched_parent_accuracy_pct": 99.57997899894995,
+        "all_gt_fine_accuracy_pct": 95.82350959919165,
+        "all_gt_parent_accuracy_pct": 95.82350959919165,
+        "fine_correct": 2845,
+        "parent_correct": 2845,
+        "state_correct": 2848,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.68498424921246,
+        "all_gt_state_accuracy_pct": 95.92455372179185,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.6527450319973,
+        "top1_parent_accuracy_pct": 98.6527450319973,
+        "top1_state_accuracy_pct": 99.49477938699899,
+        "top1_fine_and_iou50_accuracy_pct": 81.8457393061637,
+        "top1_mean_iou": 0.6906034601804918,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 45.23033111817435,
+        "parent_AP50": 70.731579431936,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.29776552846734
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed42_test\\test_summary.json",
+      "summary_sha256": "67181c04f46475e4d84222f2074ff5959319001731ed4e64b39303da2d5570a7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "is",
+      "method": "mean_full",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.87798743844735,
+        "AP50": 80.68856006236685,
+        "AP75": 60.22444373664203,
+        "AP_small": null,
+        "AP_medium": 24.612265372397925,
+        "AP_large": 61.204901298438955,
+        "AR1": 56.49225064471626,
+        "AR10": 67.23553333191543,
+        "AR100": 68.65692320748579,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.4269398428869,
+        "matched_fine_accuracy_pct": 98.70493524676233,
+        "matched_parent_accuracy_pct": 98.70493524676233,
+        "all_gt_fine_accuracy_pct": 94.98147524418997,
+        "all_gt_parent_accuracy_pct": 94.98147524418997,
+        "fine_correct": 2820,
+        "parent_correct": 2820,
+        "state_correct": 2825,
+        "corrected_vs_fixed": 3,
+        "harmed_vs_fixed": 28,
+        "matched_state_accuracy_pct": 98.87994399719986,
+        "all_gt_state_accuracy_pct": 95.1498821151903,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.68642640619737,
+        "top1_parent_accuracy_pct": 98.68642640619737,
+        "top1_state_accuracy_pct": 99.29269114179858,
+        "top1_fine_and_iou50_accuracy_pct": 82.55304816436511,
+        "top1_mean_iou": 0.7037484928317465,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 48.00372510099825,
+        "parent_AP50": 74.54582535495315,
+        "delta_AP_vs_fixed_pp": 0.6907179444946365,
+        "delta_AP_vs_rgb_pp": 37.988483472961974
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed42_test\\test_summary.json",
+      "summary_sha256": "67181c04f46475e4d84222f2074ff5959319001731ed4e64b39303da2d5570a7"
+    },
+    {
+      "training_seed": 42,
+      "visual_variant": "is",
+      "method": "mean_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 54.7003354058365,
+        "AP50": 83.3608669945513,
+        "AP75": 62.05877253173241,
+        "AP_small": null,
+        "AP_medium": 34.03060161413758,
+        "AP_large": 60.68483611658229,
+        "AR1": 58.443574716162125,
+        "AR10": 67.08587992424238,
+        "AR100": 68.65692320748579,
+        "AR_small": null,
+        "AR_medium": 87.08888888888889,
+        "AR_large": 68.4269398428869,
+        "matched_fine_accuracy_pct": 99.61498074903746,
+        "matched_parent_accuracy_pct": 99.61498074903746,
+        "all_gt_fine_accuracy_pct": 95.85719097339171,
+        "all_gt_parent_accuracy_pct": 95.85719097339171,
+        "fine_correct": 2846,
+        "parent_correct": 2846,
+        "state_correct": 2848,
+        "corrected_vs_fixed": 2,
+        "harmed_vs_fixed": 1,
+        "matched_state_accuracy_pct": 99.68498424921246,
+        "all_gt_state_accuracy_pct": 95.92455372179185,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.05692152239811,
+        "top1_parent_accuracy_pct": 99.05692152239811,
+        "top1_state_accuracy_pct": 99.49477938699899,
+        "top1_fine_and_iou50_accuracy_pct": 84.91074435836983,
+        "top1_mean_iou": 0.7174648351188334,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 49.382687187062444,
+        "parent_AP50": 76.62988762116449,
+        "delta_AP_vs_fixed_pp": 2.5130659118837855,
+        "delta_AP_vs_rgb_pp": 39.81083144035112
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed42_test\\test_summary.json",
+      "summary_sha256": "67181c04f46475e4d84222f2074ff5959319001731ed4e64b39303da2d5570a7"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "base",
+      "method": "rgb",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 19.975840279808168,
+        "AP50": 31.181039464531,
+        "AP75": 22.531553150653853,
+        "AP_small": null,
+        "AP_medium": 9.83661293415139,
+        "AP_large": 25.514444422907417,
+        "AR1": 62.835667245421156,
+        "AR10": 70.57654689260092,
+        "AR100": 71.24111910490582,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 71.00724534217312,
+        "matched_fine_accuracy_pct": 28.95005096839959,
+        "matched_parent_accuracy_pct": 56.77879714576962,
+        "all_gt_fine_accuracy_pct": 28.696530818457394,
+        "all_gt_parent_accuracy_pct": 56.281576288312564,
+        "fine_correct": 852,
+        "parent_correct": 1671,
+        "state_correct": 1388,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 2014,
+        "matched_state_accuracy_pct": 47.16275908936459,
+        "all_gt_state_accuracy_pct": 46.749747389693496,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 27.147187605254295,
+        "top1_parent_accuracy_pct": 55.33849781071068,
+        "top1_state_accuracy_pct": 44.62782081508926,
+        "top1_fine_and_iou50_accuracy_pct": 25.732569888851465,
+        "top1_mean_iou": 0.7327092434679838,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 30.446191035556737,
+        "parent_AP50": 48.391612617557776,
+        "delta_AP_vs_fixed_pp": -37.601622232815586,
+        "delta_AP_vs_rgb_pp": 0.0
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed3407_test\\test_summary.json",
+      "summary_sha256": "8cd359dce48ce380ac3ea0cafc06397ae7b2b0df4c3fff2eee3903399a3b748f"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "base",
+      "method": "gaussian_broadcast",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 57.577462512623754,
+        "AP50": 85.2947780105562,
+        "AP75": 65.5756758880623,
+        "AP_small": null,
+        "AP_medium": 44.38274339126507,
+        "AP_large": 62.389033383203575,
+        "AR1": 63.1809859401803,
+        "AR10": 71.43923397506079,
+        "AR100": 73.16200035937,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.96632073038624,
+        "matched_fine_accuracy_pct": 97.38362215426436,
+        "matched_parent_accuracy_pct": 97.38362215426436,
+        "all_gt_fine_accuracy_pct": 96.53081845739307,
+        "all_gt_parent_accuracy_pct": 96.53081845739307,
+        "fine_correct": 2866,
+        "parent_correct": 2866,
+        "state_correct": 2926,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.42235813795446,
+        "all_gt_state_accuracy_pct": 98.5517009093971,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 97.54125968339508,
+        "top1_parent_accuracy_pct": 97.54125968339508,
+        "top1_state_accuracy_pct": 99.59582350959919,
+        "top1_fine_and_iou50_accuracy_pct": 86.62849444257326,
+        "top1_mean_iou": 0.7567078600848767,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 52.016637739224436,
+        "parent_AP50": 78.79479210144977,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.601622232815586
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed3407_test\\test_summary.json",
+      "summary_sha256": "8cd359dce48ce380ac3ea0cafc06397ae7b2b0df4c3fff2eee3903399a3b748f"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "base",
+      "method": "original_original",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 57.577462512623754,
+        "AP50": 85.2947780105562,
+        "AP75": 65.5756758880623,
+        "AP_small": null,
+        "AP_medium": 44.38274339126507,
+        "AP_large": 62.389033383203575,
+        "AR1": 63.1809859401803,
+        "AR10": 71.43923397506079,
+        "AR100": 73.16200035937,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.96632073038624,
+        "matched_fine_accuracy_pct": 97.38362215426436,
+        "matched_parent_accuracy_pct": 97.38362215426436,
+        "all_gt_fine_accuracy_pct": 96.53081845739307,
+        "all_gt_parent_accuracy_pct": 96.53081845739307,
+        "fine_correct": 2866,
+        "parent_correct": 2866,
+        "state_correct": 2926,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.42235813795446,
+        "all_gt_state_accuracy_pct": 98.5517009093971,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 97.54125968339508,
+        "top1_parent_accuracy_pct": 97.54125968339508,
+        "top1_state_accuracy_pct": 99.59582350959919,
+        "top1_fine_and_iou50_accuracy_pct": 86.62849444257326,
+        "top1_mean_iou": 0.7567078600848767,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 52.016637739224436,
+        "parent_AP50": 78.79479210144977,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.601622232815586
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed3407_test\\test_summary.json",
+      "summary_sha256": "8cd359dce48ce380ac3ea0cafc06397ae7b2b0df4c3fff2eee3903399a3b748f"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "base",
+      "method": "original_half",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 59.973742310490174,
+        "AP50": 88.9553785195001,
+        "AP75": 68.32571656284799,
+        "AP_small": null,
+        "AP_medium": 42.82889056042835,
+        "AP_large": 63.77500432115228,
+        "AR1": 65.06201396975109,
+        "AR10": 71.55845509146236,
+        "AR100": 73.16200035937,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.96632073038624,
+        "matched_fine_accuracy_pct": 97.85932721712538,
+        "matched_parent_accuracy_pct": 97.85932721712538,
+        "all_gt_fine_accuracy_pct": 97.00235769619401,
+        "all_gt_parent_accuracy_pct": 97.00235769619401,
+        "fine_correct": 2880,
+        "parent_correct": 2880,
+        "state_correct": 2934,
+        "corrected_vs_fixed": 15,
+        "harmed_vs_fixed": 1,
+        "matched_state_accuracy_pct": 99.69418960244649,
+        "all_gt_state_accuracy_pct": 98.82115190299764,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 97.70966655439543,
+        "top1_parent_accuracy_pct": 97.70966655439543,
+        "top1_state_accuracy_pct": 99.56214213539913,
+        "top1_fine_and_iou50_accuracy_pct": 89.62613674637925,
+        "top1_mean_iou": 0.7781660502882076,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 55.34064208702192,
+        "parent_AP50": 83.28285083347447,
+        "delta_AP_vs_fixed_pp": 2.39627979786642,
+        "delta_AP_vs_rgb_pp": 39.997902030682006
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed3407_test\\test_summary.json",
+      "summary_sha256": "8cd359dce48ce380ac3ea0cafc06397ae7b2b0df4c3fff2eee3903399a3b748f"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "base",
+      "method": "mean_original",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 57.577462512623754,
+        "AP50": 85.2947780105562,
+        "AP75": 65.5756758880623,
+        "AP_small": null,
+        "AP_medium": 44.38274339126507,
+        "AP_large": 62.389033383203575,
+        "AR1": 63.1809859401803,
+        "AR10": 71.43923397506079,
+        "AR100": 73.16200035937,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.96632073038624,
+        "matched_fine_accuracy_pct": 97.38362215426436,
+        "matched_parent_accuracy_pct": 97.38362215426436,
+        "all_gt_fine_accuracy_pct": 96.53081845739307,
+        "all_gt_parent_accuracy_pct": 96.53081845739307,
+        "fine_correct": 2866,
+        "parent_correct": 2866,
+        "state_correct": 2926,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.42235813795446,
+        "all_gt_state_accuracy_pct": 98.5517009093971,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 97.54125968339508,
+        "top1_parent_accuracy_pct": 97.54125968339508,
+        "top1_state_accuracy_pct": 99.59582350959919,
+        "top1_fine_and_iou50_accuracy_pct": 86.62849444257326,
+        "top1_mean_iou": 0.7567078600848767,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 52.016637739224436,
+        "parent_AP50": 78.79479210144977,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.601622232815586
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed3407_test\\test_summary.json",
+      "summary_sha256": "8cd359dce48ce380ac3ea0cafc06397ae7b2b0df4c3fff2eee3903399a3b748f"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "base",
+      "method": "mean_full",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 58.0621877712884,
+        "AP50": 86.34259295391607,
+        "AP75": 66.60895020079593,
+        "AP_small": null,
+        "AP_medium": 38.126568040513135,
+        "AP_large": 64.02995219782727,
+        "AR1": 63.52239030521315,
+        "AR10": 71.59430339596375,
+        "AR100": 73.16200035937,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.96632073038624,
+        "matched_fine_accuracy_pct": 96.87393815834183,
+        "matched_parent_accuracy_pct": 96.87393815834183,
+        "all_gt_fine_accuracy_pct": 96.02559784439205,
+        "all_gt_parent_accuracy_pct": 96.02559784439205,
+        "fine_correct": 2851,
+        "parent_correct": 2851,
+        "state_correct": 2896,
+        "corrected_vs_fixed": 35,
+        "harmed_vs_fixed": 50,
+        "matched_state_accuracy_pct": 98.40299014610942,
+        "all_gt_state_accuracy_pct": 97.54125968339508,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 96.83395082519367,
+        "top1_parent_accuracy_pct": 96.83395082519367,
+        "top1_state_accuracy_pct": 98.3496126641967,
+        "top1_fine_and_iou50_accuracy_pct": 86.998989558774,
+        "top1_mean_iou": 0.7650119775269801,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 52.93908421186793,
+        "parent_AP50": 79.05046020095644,
+        "delta_AP_vs_fixed_pp": 0.4847252586646462,
+        "delta_AP_vs_rgb_pp": 38.08634749148023
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed3407_test\\test_summary.json",
+      "summary_sha256": "8cd359dce48ce380ac3ea0cafc06397ae7b2b0df4c3fff2eee3903399a3b748f"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "base",
+      "method": "mean_half",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 59.973742310490174,
+        "AP50": 88.9553785195001,
+        "AP75": 68.32571656284799,
+        "AP_small": null,
+        "AP_medium": 42.82889056042835,
+        "AP_large": 63.77500432115228,
+        "AR1": 65.06201396975109,
+        "AR10": 71.55845509146236,
+        "AR100": 73.16200035937,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.96632073038624,
+        "matched_fine_accuracy_pct": 97.85932721712538,
+        "matched_parent_accuracy_pct": 97.85932721712538,
+        "all_gt_fine_accuracy_pct": 97.00235769619401,
+        "all_gt_parent_accuracy_pct": 97.00235769619401,
+        "fine_correct": 2880,
+        "parent_correct": 2880,
+        "state_correct": 2934,
+        "corrected_vs_fixed": 15,
+        "harmed_vs_fixed": 1,
+        "matched_state_accuracy_pct": 99.69418960244649,
+        "all_gt_state_accuracy_pct": 98.82115190299764,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 97.70966655439543,
+        "top1_parent_accuracy_pct": 97.70966655439543,
+        "top1_state_accuracy_pct": 99.56214213539913,
+        "top1_fine_and_iou50_accuracy_pct": 89.62613674637925,
+        "top1_mean_iou": 0.7781660502882076,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 55.34064208702192,
+        "parent_AP50": 83.28285083347447,
+        "delta_AP_vs_fixed_pp": 2.39627979786642,
+        "delta_AP_vs_rgb_pp": 39.997902030682006
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed3407_test\\test_summary.json",
+      "summary_sha256": "8cd359dce48ce380ac3ea0cafc06397ae7b2b0df4c3fff2eee3903399a3b748f"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "flat",
+      "method": "rgb",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 14.589003264439096,
+        "AP50": 23.77184592957479,
+        "AP75": 16.355164915086952,
+        "AP_small": null,
+        "AP_medium": 7.227356171609843,
+        "AP_large": 21.373527807686017,
+        "AR1": 53.04225212190792,
+        "AR10": 66.64129950822438,
+        "AR100": 67.68702591103187,
+        "AR_small": null,
+        "AR_medium": 88.51111111111112,
+        "AR_large": 67.43473272093127,
+        "matched_fine_accuracy_pct": 22.099827882960412,
+        "matched_parent_accuracy_pct": 51.39414802065404,
+        "all_gt_fine_accuracy_pct": 21.623442236443246,
+        "all_gt_parent_accuracy_pct": 50.28629168070057,
+        "fine_correct": 642,
+        "parent_correct": 1493,
+        "state_correct": 1151,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 2211,
+        "matched_state_accuracy_pct": 39.621342512908775,
+        "all_gt_state_accuracy_pct": 38.76726170427754,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 23.408555069046816,
+        "top1_parent_accuracy_pct": 51.02728191310205,
+        "top1_state_accuracy_pct": 40.28292354328057,
+        "top1_fine_and_iou50_accuracy_pct": 21.21926574604244,
+        "top1_mean_iou": 0.6667412952210535,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 20.309059947236378,
+        "parent_AP50": 34.0771681292654,
+        "delta_AP_vs_fixed_pp": -33.916409296403984,
+        "delta_AP_vs_rgb_pp": 0.0
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed3407_test\\test_summary.json",
+      "summary_sha256": "768d4a33be408e897dfae0d35a5e2a2d96fd64effa97c45579b3f6a4a472c827"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "flat",
+      "method": "gaussian_broadcast",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 48.505412560843084,
+        "AP50": 74.34975856445821,
+        "AP75": 55.20002256871411,
+        "AP_small": null,
+        "AP_medium": 41.79867689740562,
+        "AP_large": 55.66110007120777,
+        "AR1": 53.57874493738966,
+        "AR10": 69.14342101538597,
+        "AR100": 72.05913992025569,
+        "AR_small": null,
+        "AR_medium": 88.51111111111112,
+        "AR_large": 71.87449423182356,
+        "matched_fine_accuracy_pct": 98.20998278829605,
+        "matched_parent_accuracy_pct": 98.20998278829605,
+        "all_gt_fine_accuracy_pct": 96.09296059279218,
+        "all_gt_parent_accuracy_pct": 96.09296059279218,
+        "fine_correct": 2853,
+        "parent_correct": 2853,
+        "state_correct": 2899,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.79345955249569,
+        "all_gt_state_accuracy_pct": 97.64230380599528,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.3496126641967,
+        "top1_parent_accuracy_pct": 98.3496126641967,
+        "top1_state_accuracy_pct": 99.49477938699899,
+        "top1_fine_and_iou50_accuracy_pct": 77.46716066015493,
+        "top1_mean_iou": 0.6757427373628225,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 44.07119130742102,
+        "parent_AP50": 67.68828800062433,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 33.916409296403984
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed3407_test\\test_summary.json",
+      "summary_sha256": "768d4a33be408e897dfae0d35a5e2a2d96fd64effa97c45579b3f6a4a472c827"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "flat",
+      "method": "original_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 48.505412560843084,
+        "AP50": 74.34975856445821,
+        "AP75": 55.20002256871411,
+        "AP_small": null,
+        "AP_medium": 41.79867689740562,
+        "AP_large": 55.66110007120777,
+        "AR1": 53.57874493738966,
+        "AR10": 69.14342101538597,
+        "AR100": 72.05913992025569,
+        "AR_small": null,
+        "AR_medium": 88.51111111111112,
+        "AR_large": 71.87449423182356,
+        "matched_fine_accuracy_pct": 98.20998278829605,
+        "matched_parent_accuracy_pct": 98.20998278829605,
+        "all_gt_fine_accuracy_pct": 96.09296059279218,
+        "all_gt_parent_accuracy_pct": 96.09296059279218,
+        "fine_correct": 2853,
+        "parent_correct": 2853,
+        "state_correct": 2899,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.79345955249569,
+        "all_gt_state_accuracy_pct": 97.64230380599528,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.3496126641967,
+        "top1_parent_accuracy_pct": 98.3496126641967,
+        "top1_state_accuracy_pct": 99.49477938699899,
+        "top1_fine_and_iou50_accuracy_pct": 77.46716066015493,
+        "top1_mean_iou": 0.6757427373628225,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 44.07119130742102,
+        "parent_AP50": 67.68828800062433,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 33.916409296403984
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed3407_test\\test_summary.json",
+      "summary_sha256": "768d4a33be408e897dfae0d35a5e2a2d96fd64effa97c45579b3f6a4a472c827"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "flat",
+      "method": "original_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.981973493501236,
+        "AP50": 80.53778321888737,
+        "AP75": 60.76157677104494,
+        "AP_small": null,
+        "AP_medium": 44.722874035318725,
+        "AP_large": 58.511587733497315,
+        "AR1": 57.269662936374665,
+        "AR10": 69.41772696836927,
+        "AR100": 72.05913992025569,
+        "AR_small": null,
+        "AR_medium": 88.51111111111112,
+        "AR_large": 71.87449423182356,
+        "matched_fine_accuracy_pct": 98.45094664371773,
+        "matched_parent_accuracy_pct": 98.45094664371773,
+        "all_gt_fine_accuracy_pct": 96.32873021219265,
+        "all_gt_parent_accuracy_pct": 96.32873021219265,
+        "fine_correct": 2860,
+        "parent_correct": 2860,
+        "state_correct": 2897,
+        "corrected_vs_fixed": 13,
+        "harmed_vs_fixed": 6,
+        "matched_state_accuracy_pct": 99.72461273666093,
+        "all_gt_state_accuracy_pct": 97.57494105759515,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.72010778039744,
+        "top1_parent_accuracy_pct": 98.72010778039744,
+        "top1_state_accuracy_pct": 99.73054900639946,
+        "top1_fine_and_iou50_accuracy_pct": 82.78881778376558,
+        "top1_mean_iou": 0.7176589530541442,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 48.19821663968889,
+        "parent_AP50": 73.38205776296519,
+        "delta_AP_vs_fixed_pp": 4.476560932658153,
+        "delta_AP_vs_rgb_pp": 38.39297022906214
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed3407_test\\test_summary.json",
+      "summary_sha256": "768d4a33be408e897dfae0d35a5e2a2d96fd64effa97c45579b3f6a4a472c827"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "flat",
+      "method": "mean_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 48.505412560843084,
+        "AP50": 74.34975856445821,
+        "AP75": 55.20002256871411,
+        "AP_small": null,
+        "AP_medium": 41.79867689740562,
+        "AP_large": 55.66110007120777,
+        "AR1": 53.57874493738966,
+        "AR10": 69.14342101538597,
+        "AR100": 72.05913992025569,
+        "AR_small": null,
+        "AR_medium": 88.51111111111112,
+        "AR_large": 71.87449423182356,
+        "matched_fine_accuracy_pct": 98.20998278829605,
+        "matched_parent_accuracy_pct": 98.20998278829605,
+        "all_gt_fine_accuracy_pct": 96.09296059279218,
+        "all_gt_parent_accuracy_pct": 96.09296059279218,
+        "fine_correct": 2853,
+        "parent_correct": 2853,
+        "state_correct": 2899,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.79345955249569,
+        "all_gt_state_accuracy_pct": 97.64230380599528,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.3496126641967,
+        "top1_parent_accuracy_pct": 98.3496126641967,
+        "top1_state_accuracy_pct": 99.49477938699899,
+        "top1_fine_and_iou50_accuracy_pct": 77.46716066015493,
+        "top1_mean_iou": 0.6757427373628225,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 44.07119130742102,
+        "parent_AP50": 67.68828800062433,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 33.916409296403984
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed3407_test\\test_summary.json",
+      "summary_sha256": "768d4a33be408e897dfae0d35a5e2a2d96fd64effa97c45579b3f6a4a472c827"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "flat",
+      "method": "mean_full",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 51.65335086065427,
+        "AP50": 78.39727429018963,
+        "AP75": 60.10404305460779,
+        "AP_small": null,
+        "AP_medium": 28.71396992547803,
+        "AP_large": 59.00190516753734,
+        "AR1": 56.203220672431286,
+        "AR10": 69.2339750166055,
+        "AR100": 72.05913992025569,
+        "AR_small": null,
+        "AR_medium": 88.51111111111112,
+        "AR_large": 71.87449423182356,
+        "matched_fine_accuracy_pct": 97.55593803786574,
+        "matched_parent_accuracy_pct": 97.55593803786574,
+        "all_gt_fine_accuracy_pct": 95.45301448299091,
+        "all_gt_parent_accuracy_pct": 95.45301448299091,
+        "fine_correct": 2834,
+        "parent_correct": 2834,
+        "state_correct": 2875,
+        "corrected_vs_fixed": 18,
+        "harmed_vs_fixed": 37,
+        "matched_state_accuracy_pct": 98.96729776247848,
+        "all_gt_state_accuracy_pct": 96.83395082519367,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 97.57494105759515,
+        "top1_parent_accuracy_pct": 97.57494105759515,
+        "top1_state_accuracy_pct": 99.12428427079824,
+        "top1_fine_and_iou50_accuracy_pct": 80.97002357696194,
+        "top1_mean_iou": 0.7071875470196357,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 44.66758119686291,
+        "parent_AP50": 67.86249072463787,
+        "delta_AP_vs_fixed_pp": 3.1479382998111873,
+        "delta_AP_vs_rgb_pp": 37.06434759621517
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed3407_test\\test_summary.json",
+      "summary_sha256": "768d4a33be408e897dfae0d35a5e2a2d96fd64effa97c45579b3f6a4a472c827"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "flat",
+      "method": "mean_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.981973493501236,
+        "AP50": 80.53778321888737,
+        "AP75": 60.76157677104494,
+        "AP_small": null,
+        "AP_medium": 44.722874035318725,
+        "AP_large": 58.511587733497315,
+        "AR1": 57.269662936374665,
+        "AR10": 69.41772696836927,
+        "AR100": 72.05913992025569,
+        "AR_small": null,
+        "AR_medium": 88.51111111111112,
+        "AR_large": 71.87449423182356,
+        "matched_fine_accuracy_pct": 98.45094664371773,
+        "matched_parent_accuracy_pct": 98.45094664371773,
+        "all_gt_fine_accuracy_pct": 96.32873021219265,
+        "all_gt_parent_accuracy_pct": 96.32873021219265,
+        "fine_correct": 2860,
+        "parent_correct": 2860,
+        "state_correct": 2897,
+        "corrected_vs_fixed": 13,
+        "harmed_vs_fixed": 6,
+        "matched_state_accuracy_pct": 99.72461273666093,
+        "all_gt_state_accuracy_pct": 97.57494105759515,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.72010778039744,
+        "top1_parent_accuracy_pct": 98.72010778039744,
+        "top1_state_accuracy_pct": 99.73054900639946,
+        "top1_fine_and_iou50_accuracy_pct": 82.78881778376558,
+        "top1_mean_iou": 0.7176589530541442,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 48.19821663968889,
+        "parent_AP50": 73.38205776296519,
+        "delta_AP_vs_fixed_pp": 4.476560932658153,
+        "delta_AP_vs_rgb_pp": 38.39297022906214
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed3407_test\\test_summary.json",
+      "summary_sha256": "768d4a33be408e897dfae0d35a5e2a2d96fd64effa97c45579b3f6a4a472c827"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "is",
+      "method": "rgb",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 19.81911573583141,
+        "AP50": 31.009517911056868,
+        "AP75": 22.321888865021887,
+        "AP_small": null,
+        "AP_medium": 9.629791153218326,
+        "AP_large": 24.93777005949724,
+        "AR1": 61.57864393182185,
+        "AR10": 69.98867391870611,
+        "AR100": 70.8770910890197,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 70.64696271742787,
+        "matched_fine_accuracy_pct": 27.28819326301463,
+        "matched_parent_accuracy_pct": 55.05273902687989,
+        "all_gt_fine_accuracy_pct": 27.012462108454024,
+        "all_gt_parent_accuracy_pct": 54.49646345570899,
+        "fine_correct": 802,
+        "parent_correct": 1618,
+        "state_correct": 1352,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 2079,
+        "matched_state_accuracy_pct": 46.00204151071793,
+        "all_gt_state_accuracy_pct": 45.53721791849107,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 26.002020882452005,
+        "top1_parent_accuracy_pct": 52.947120242505896,
+        "top1_state_accuracy_pct": 43.31424722128663,
+        "top1_fine_and_iou50_accuracy_pct": 24.78949141124958,
+        "top1_mean_iou": 0.7306546814988535,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 29.953462682631287,
+        "parent_AP50": 48.06853213157591,
+        "delta_AP_vs_fixed_pp": -36.45059921115341,
+        "delta_AP_vs_rgb_pp": 0.0
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed3407_test\\test_summary.json",
+      "summary_sha256": "b9afcb0e7240d6d5874ad3a4fbc00fffc4602343b3346172e6244ff6d22cd9bc"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "is",
+      "method": "gaussian_broadcast",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 56.26971494698482,
+        "AP50": 83.56213686738816,
+        "AP75": 64.15316663565781,
+        "AP_small": null,
+        "AP_medium": 42.238937321984544,
+        "AP_large": 61.65552660891558,
+        "AR1": 61.93287125970891,
+        "AR10": 71.20075467826007,
+        "AR100": 72.99587976624596,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.79619502438256,
+        "matched_fine_accuracy_pct": 98.02653963933311,
+        "matched_parent_accuracy_pct": 98.02653963933311,
+        "all_gt_fine_accuracy_pct": 97.03603907039407,
+        "all_gt_parent_accuracy_pct": 97.03603907039407,
+        "fine_correct": 2881,
+        "parent_correct": 2881,
+        "state_correct": 2931,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.7277985709425,
+        "all_gt_state_accuracy_pct": 98.72010778039744,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.21488716739643,
+        "top1_parent_accuracy_pct": 98.21488716739643,
+        "top1_state_accuracy_pct": 99.73054900639946,
+        "top1_fine_and_iou50_accuracy_pct": 85.95486695857191,
+        "top1_mean_iou": 0.7455851294610929,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 50.74432214041814,
+        "parent_AP50": 77.14698347707042,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 36.45059921115341
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed3407_test\\test_summary.json",
+      "summary_sha256": "b9afcb0e7240d6d5874ad3a4fbc00fffc4602343b3346172e6244ff6d22cd9bc"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "is",
+      "method": "original_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 56.26971494698482,
+        "AP50": 83.56213686738816,
+        "AP75": 64.15316663565781,
+        "AP_small": null,
+        "AP_medium": 42.238937321984544,
+        "AP_large": 61.65552660891558,
+        "AR1": 61.93287125970891,
+        "AR10": 71.20075467826007,
+        "AR100": 72.99587976624596,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.79619502438256,
+        "matched_fine_accuracy_pct": 98.02653963933311,
+        "matched_parent_accuracy_pct": 98.02653963933311,
+        "all_gt_fine_accuracy_pct": 97.03603907039407,
+        "all_gt_parent_accuracy_pct": 97.03603907039407,
+        "fine_correct": 2881,
+        "parent_correct": 2881,
+        "state_correct": 2931,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.7277985709425,
+        "all_gt_state_accuracy_pct": 98.72010778039744,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.21488716739643,
+        "top1_parent_accuracy_pct": 98.21488716739643,
+        "top1_state_accuracy_pct": 99.73054900639946,
+        "top1_fine_and_iou50_accuracy_pct": 85.95486695857191,
+        "top1_mean_iou": 0.7455851294610929,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 50.74432214041814,
+        "parent_AP50": 77.14698347707042,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 36.45059921115341
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed3407_test\\test_summary.json",
+      "summary_sha256": "b9afcb0e7240d6d5874ad3a4fbc00fffc4602343b3346172e6244ff6d22cd9bc"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "is",
+      "method": "original_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 59.05532741437977,
+        "AP50": 87.83679906265326,
+        "AP75": 67.32529685307509,
+        "AP_small": null,
+        "AP_medium": 41.398270146580465,
+        "AP_large": 63.306807921061406,
+        "AR1": 64.12977124745285,
+        "AR10": 71.38603201616768,
+        "AR100": 72.99587976624596,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.79619502438256,
+        "matched_fine_accuracy_pct": 98.40081660428717,
+        "matched_parent_accuracy_pct": 98.40081660428717,
+        "all_gt_fine_accuracy_pct": 97.40653418659481,
+        "all_gt_parent_accuracy_pct": 97.40653418659481,
+        "fine_correct": 2892,
+        "parent_correct": 2892,
+        "state_correct": 2936,
+        "corrected_vs_fixed": 17,
+        "harmed_vs_fixed": 6,
+        "matched_state_accuracy_pct": 99.89792446410344,
+        "all_gt_state_accuracy_pct": 98.88851465139777,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.28224991579657,
+        "top1_parent_accuracy_pct": 98.28224991579657,
+        "top1_state_accuracy_pct": 99.6968676321994,
+        "top1_fine_and_iou50_accuracy_pct": 89.01987201077804,
+        "top1_mean_iou": 0.7678632478239628,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 54.47964375040365,
+        "parent_AP50": 82.2190826523314,
+        "delta_AP_vs_fixed_pp": 2.785612467394948,
+        "delta_AP_vs_rgb_pp": 39.23621167854836
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed3407_test\\test_summary.json",
+      "summary_sha256": "b9afcb0e7240d6d5874ad3a4fbc00fffc4602343b3346172e6244ff6d22cd9bc"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "is",
+      "method": "mean_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 56.26971494698482,
+        "AP50": 83.56213686738816,
+        "AP75": 64.15316663565781,
+        "AP_small": null,
+        "AP_medium": 42.238937321984544,
+        "AP_large": 61.65552660891558,
+        "AR1": 61.93287125970891,
+        "AR10": 71.20075467826007,
+        "AR100": 72.99587976624596,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.79619502438256,
+        "matched_fine_accuracy_pct": 98.02653963933311,
+        "matched_parent_accuracy_pct": 98.02653963933311,
+        "all_gt_fine_accuracy_pct": 97.03603907039407,
+        "all_gt_parent_accuracy_pct": 97.03603907039407,
+        "fine_correct": 2881,
+        "parent_correct": 2881,
+        "state_correct": 2931,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.7277985709425,
+        "all_gt_state_accuracy_pct": 98.72010778039744,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.21488716739643,
+        "top1_parent_accuracy_pct": 98.21488716739643,
+        "top1_state_accuracy_pct": 99.73054900639946,
+        "top1_fine_and_iou50_accuracy_pct": 85.95486695857191,
+        "top1_mean_iou": 0.7455851294610929,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 50.74432214041814,
+        "parent_AP50": 77.14698347707042,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 36.45059921115341
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed3407_test\\test_summary.json",
+      "summary_sha256": "b9afcb0e7240d6d5874ad3a4fbc00fffc4602343b3346172e6244ff6d22cd9bc"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "is",
+      "method": "mean_full",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 56.873520935076435,
+        "AP50": 84.70206345459475,
+        "AP75": 65.2397073990925,
+        "AP_small": null,
+        "AP_medium": 36.58329853242576,
+        "AP_large": 63.673779152881295,
+        "AR1": 62.7670985384253,
+        "AR10": 71.40006694918343,
+        "AR100": 72.99587976624596,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.79619502438256,
+        "matched_fine_accuracy_pct": 96.59748213678122,
+        "matched_parent_accuracy_pct": 96.59748213678122,
+        "all_gt_fine_accuracy_pct": 95.62142135399124,
+        "all_gt_parent_accuracy_pct": 95.62142135399124,
+        "fine_correct": 2839,
+        "parent_correct": 2839,
+        "state_correct": 2888,
+        "corrected_vs_fixed": 26,
+        "harmed_vs_fixed": 68,
+        "matched_state_accuracy_pct": 98.26471588975842,
+        "all_gt_state_accuracy_pct": 97.27180868979454,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 96.8002694509936,
+        "top1_parent_accuracy_pct": 96.8002694509936,
+        "top1_state_accuracy_pct": 98.4506567867969,
+        "top1_fine_and_iou50_accuracy_pct": 86.22431795217246,
+        "top1_mean_iou": 0.758571059176539,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 51.57868831996153,
+        "parent_AP50": 77.19547184723669,
+        "delta_AP_vs_fixed_pp": 0.6038059880916151,
+        "delta_AP_vs_rgb_pp": 37.054405199245025
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed3407_test\\test_summary.json",
+      "summary_sha256": "b9afcb0e7240d6d5874ad3a4fbc00fffc4602343b3346172e6244ff6d22cd9bc"
+    },
+    {
+      "training_seed": 3407,
+      "visual_variant": "is",
+      "method": "mean_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 59.05532741437977,
+        "AP50": 87.83679906265326,
+        "AP75": 67.32529685307509,
+        "AP_small": null,
+        "AP_medium": 41.398270146580465,
+        "AP_large": 63.306807921061406,
+        "AR1": 64.12977124745285,
+        "AR10": 71.38603201616768,
+        "AR100": 72.99587976624596,
+        "AR_small": null,
+        "AR_medium": 88.24444444444445,
+        "AR_large": 72.79619502438256,
+        "matched_fine_accuracy_pct": 98.40081660428717,
+        "matched_parent_accuracy_pct": 98.40081660428717,
+        "all_gt_fine_accuracy_pct": 97.40653418659481,
+        "all_gt_parent_accuracy_pct": 97.40653418659481,
+        "fine_correct": 2892,
+        "parent_correct": 2892,
+        "state_correct": 2936,
+        "corrected_vs_fixed": 17,
+        "harmed_vs_fixed": 6,
+        "matched_state_accuracy_pct": 99.89792446410344,
+        "all_gt_state_accuracy_pct": 98.88851465139777,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.28224991579657,
+        "top1_parent_accuracy_pct": 98.28224991579657,
+        "top1_state_accuracy_pct": 99.6968676321994,
+        "top1_fine_and_iou50_accuracy_pct": 89.01987201077804,
+        "top1_mean_iou": 0.7678632478239628,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 54.47964375040365,
+        "parent_AP50": 82.2190826523314,
+        "delta_AP_vs_fixed_pp": 2.785612467394948,
+        "delta_AP_vs_rgb_pp": 39.23621167854836
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed3407_test\\test_summary.json",
+      "summary_sha256": "b9afcb0e7240d6d5874ad3a4fbc00fffc4602343b3346172e6244ff6d22cd9bc"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "base",
+      "method": "rgb",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 14.957703385386129,
+        "AP50": 22.030008060103643,
+        "AP75": 16.630374439480665,
+        "AP_small": null,
+        "AP_medium": 5.762666275486777,
+        "AP_large": 21.483953823657185,
+        "AR1": 57.3646117710376,
+        "AR10": 67.33702350105096,
+        "AR100": 68.11450717820291,
+        "AR_small": null,
+        "AR_medium": 80.52222222222221,
+        "AR_large": 67.95775822580245,
+        "matched_fine_accuracy_pct": 22.56621947024424,
+        "matched_parent_accuracy_pct": 56.656346749226,
+        "all_gt_fine_accuracy_pct": 22.09498147524419,
+        "all_gt_parent_accuracy_pct": 55.47322330751095,
+        "fine_correct": 656,
+        "parent_correct": 1647,
+        "state_correct": 1170,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 2244,
+        "matched_state_accuracy_pct": 40.247678018575854,
+        "all_gt_state_accuracy_pct": 39.40720781407882,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 20.30986864264062,
+        "top1_parent_accuracy_pct": 50.858875042101715,
+        "top1_state_accuracy_pct": 37.72313910407544,
+        "top1_fine_and_iou50_accuracy_pct": 18.423711687436846,
+        "top1_mean_iou": 0.6812039364786034,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 24.817857360266597,
+        "parent_AP50": 37.855705058690894,
+        "delta_AP_vs_fixed_pp": -37.407792604875254,
+        "delta_AP_vs_rgb_pp": 0.0
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed2026_test\\test_summary.json",
+      "summary_sha256": "acddb2a217d91617390c8dc70b10a14fabe236bbbaed8d00cfb73815e11589c0"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "base",
+      "method": "gaussian_broadcast",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 52.36549599026138,
+        "AP50": 77.25717496738181,
+        "AP75": 58.4740710782515,
+        "AP_small": null,
+        "AP_medium": 49.133882001254214,
+        "AP_large": 60.44554000097202,
+        "AR1": 57.79346645920851,
+        "AR10": 70.2032787807048,
+        "AR100": 71.60423788123055,
+        "AR_small": null,
+        "AR_medium": 88.63333333333333,
+        "AR_large": 71.43616930825874,
+        "matched_fine_accuracy_pct": 99.75920192638459,
+        "matched_parent_accuracy_pct": 99.75920192638459,
+        "all_gt_fine_accuracy_pct": 97.67598518019535,
+        "all_gt_parent_accuracy_pct": 97.67598518019535,
+        "fine_correct": 2900,
+        "parent_correct": 2900,
+        "state_correct": 2900,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.75920192638459,
+        "all_gt_state_accuracy_pct": 97.67598518019535,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.46109801279893,
+        "top1_parent_accuracy_pct": 99.46109801279893,
+        "top1_state_accuracy_pct": 99.62950488379926,
+        "top1_fine_and_iou50_accuracy_pct": 80.19535197036039,
+        "top1_mean_iou": 0.6993421561608867,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.74282580744814,
+        "parent_AP50": 70.13068031965422,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.407792604875254
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed2026_test\\test_summary.json",
+      "summary_sha256": "acddb2a217d91617390c8dc70b10a14fabe236bbbaed8d00cfb73815e11589c0"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "base",
+      "method": "original_original",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 52.36549599026138,
+        "AP50": 77.25717496738181,
+        "AP75": 58.4740710782515,
+        "AP_small": null,
+        "AP_medium": 49.133882001254214,
+        "AP_large": 60.44554000097202,
+        "AR1": 57.79346645920851,
+        "AR10": 70.2032787807048,
+        "AR100": 71.60423788123055,
+        "AR_small": null,
+        "AR_medium": 88.63333333333333,
+        "AR_large": 71.43616930825874,
+        "matched_fine_accuracy_pct": 99.75920192638459,
+        "matched_parent_accuracy_pct": 99.75920192638459,
+        "all_gt_fine_accuracy_pct": 97.67598518019535,
+        "all_gt_parent_accuracy_pct": 97.67598518019535,
+        "fine_correct": 2900,
+        "parent_correct": 2900,
+        "state_correct": 2900,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.75920192638459,
+        "all_gt_state_accuracy_pct": 97.67598518019535,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.46109801279893,
+        "top1_parent_accuracy_pct": 99.46109801279893,
+        "top1_state_accuracy_pct": 99.62950488379926,
+        "top1_fine_and_iou50_accuracy_pct": 80.19535197036039,
+        "top1_mean_iou": 0.6993421561608867,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.74282580744814,
+        "parent_AP50": 70.13068031965422,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.407792604875254
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed2026_test\\test_summary.json",
+      "summary_sha256": "acddb2a217d91617390c8dc70b10a14fabe236bbbaed8d00cfb73815e11589c0"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "base",
+      "method": "original_half",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 57.6215749558658,
+        "AP50": 83.82752253682504,
+        "AP75": 64.66227193895226,
+        "AP_small": null,
+        "AP_medium": 46.9952960673436,
+        "AP_large": 62.7960424090909,
+        "AR1": 60.90607077726732,
+        "AR10": 70.29047925282892,
+        "AR100": 71.60423788123055,
+        "AR_small": null,
+        "AR_medium": 88.63333333333333,
+        "AR_large": 71.43616930825874,
+        "matched_fine_accuracy_pct": 100.0,
+        "matched_parent_accuracy_pct": 100.0,
+        "all_gt_fine_accuracy_pct": 97.91175479959583,
+        "all_gt_parent_accuracy_pct": 97.91175479959583,
+        "fine_correct": 2907,
+        "parent_correct": 2907,
+        "state_correct": 2907,
+        "corrected_vs_fixed": 7,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 100.0,
+        "all_gt_state_accuracy_pct": 97.91175479959583,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.73054900639946,
+        "top1_parent_accuracy_pct": 99.73054900639946,
+        "top1_state_accuracy_pct": 99.83159312899966,
+        "top1_fine_and_iou50_accuracy_pct": 84.20343550016841,
+        "top1_mean_iou": 0.7345699917385846,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 52.593572846040004,
+        "parent_AP50": 77.68586788664817,
+        "delta_AP_vs_fixed_pp": 5.256078965604424,
+        "delta_AP_vs_rgb_pp": 42.66387157047967
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed2026_test\\test_summary.json",
+      "summary_sha256": "acddb2a217d91617390c8dc70b10a14fabe236bbbaed8d00cfb73815e11589c0"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "base",
+      "method": "mean_original",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 52.36549599026138,
+        "AP50": 77.25717496738181,
+        "AP75": 58.4740710782515,
+        "AP_small": null,
+        "AP_medium": 49.133882001254214,
+        "AP_large": 60.44554000097202,
+        "AR1": 57.79346645920851,
+        "AR10": 70.2032787807048,
+        "AR100": 71.60423788123055,
+        "AR_small": null,
+        "AR_medium": 88.63333333333333,
+        "AR_large": 71.43616930825874,
+        "matched_fine_accuracy_pct": 99.75920192638459,
+        "matched_parent_accuracy_pct": 99.75920192638459,
+        "all_gt_fine_accuracy_pct": 97.67598518019535,
+        "all_gt_parent_accuracy_pct": 97.67598518019535,
+        "fine_correct": 2900,
+        "parent_correct": 2900,
+        "state_correct": 2900,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.75920192638459,
+        "all_gt_state_accuracy_pct": 97.67598518019535,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.46109801279893,
+        "top1_parent_accuracy_pct": 99.46109801279893,
+        "top1_state_accuracy_pct": 99.62950488379926,
+        "top1_fine_and_iou50_accuracy_pct": 80.19535197036039,
+        "top1_mean_iou": 0.6993421561608867,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.74282580744814,
+        "parent_AP50": 70.13068031965422,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.407792604875254
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed2026_test\\test_summary.json",
+      "summary_sha256": "acddb2a217d91617390c8dc70b10a14fabe236bbbaed8d00cfb73815e11589c0"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "base",
+      "method": "mean_full",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 57.43915457824572,
+        "AP50": 82.5421928729055,
+        "AP75": 65.20734091381685,
+        "AP_small": null,
+        "AP_medium": 36.307721356796435,
+        "AP_large": 63.5068592737392,
+        "AR1": 60.723013712542674,
+        "AR10": 70.28264745539995,
+        "AR100": 71.60423788123055,
+        "AR_small": null,
+        "AR_medium": 88.63333333333333,
+        "AR_large": 71.43616930825874,
+        "matched_fine_accuracy_pct": 99.86240110079119,
+        "matched_parent_accuracy_pct": 99.86240110079119,
+        "all_gt_fine_accuracy_pct": 97.77702930279555,
+        "all_gt_parent_accuracy_pct": 97.77702930279555,
+        "fine_correct": 2903,
+        "parent_correct": 2903,
+        "state_correct": 2904,
+        "corrected_vs_fixed": 7,
+        "harmed_vs_fixed": 4,
+        "matched_state_accuracy_pct": 99.8968008255934,
+        "all_gt_state_accuracy_pct": 97.81071067699563,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.25900976759851,
+        "top1_parent_accuracy_pct": 99.25900976759851,
+        "top1_state_accuracy_pct": 99.73054900639946,
+        "top1_fine_and_iou50_accuracy_pct": 83.73189626136747,
+        "top1_mean_iou": 0.73189149457071,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 51.54947434744953,
+        "parent_AP50": 74.62178319649063,
+        "delta_AP_vs_fixed_pp": 5.07365858798434,
+        "delta_AP_vs_rgb_pp": 42.481451192859595
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed2026_test\\test_summary.json",
+      "summary_sha256": "acddb2a217d91617390c8dc70b10a14fabe236bbbaed8d00cfb73815e11589c0"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "base",
+      "method": "mean_half",
+      "role": "shared_20_epoch_initialization_diagnostic",
+      "metrics": {
+        "AP": 57.6215749558658,
+        "AP50": 83.82752253682504,
+        "AP75": 64.66227193895226,
+        "AP_small": null,
+        "AP_medium": 46.9952960673436,
+        "AP_large": 62.7960424090909,
+        "AR1": 60.90607077726732,
+        "AR10": 70.29047925282892,
+        "AR100": 71.60423788123055,
+        "AR_small": null,
+        "AR_medium": 88.63333333333333,
+        "AR_large": 71.43616930825874,
+        "matched_fine_accuracy_pct": 100.0,
+        "matched_parent_accuracy_pct": 100.0,
+        "all_gt_fine_accuracy_pct": 97.91175479959583,
+        "all_gt_parent_accuracy_pct": 97.91175479959583,
+        "fine_correct": 2907,
+        "parent_correct": 2907,
+        "state_correct": 2907,
+        "corrected_vs_fixed": 7,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 100.0,
+        "all_gt_state_accuracy_pct": 97.91175479959583,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.73054900639946,
+        "top1_parent_accuracy_pct": 99.73054900639946,
+        "top1_state_accuracy_pct": 99.83159312899966,
+        "top1_fine_and_iou50_accuracy_pct": 84.20343550016841,
+        "top1_mean_iou": 0.7345699917385846,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 52.593572846040004,
+        "parent_AP50": 77.68586788664817,
+        "delta_AP_vs_fixed_pp": 5.256078965604424,
+        "delta_AP_vs_rgb_pp": 42.66387157047967
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\base_seed2026_test\\test_summary.json",
+      "summary_sha256": "acddb2a217d91617390c8dc70b10a14fabe236bbbaed8d00cfb73815e11589c0"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "flat",
+      "method": "rgb",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 14.39044510891094,
+        "AP50": 20.828931388268426,
+        "AP75": 16.269361902137657,
+        "AP_small": null,
+        "AP_medium": 15.577113340962045,
+        "AP_large": 21.713082743782618,
+        "AR1": 58.04922779421807,
+        "AR10": 67.45265073195023,
+        "AR100": 68.18333040214824,
+        "AR_small": null,
+        "AR_medium": 77.04444444444444,
+        "AR_large": 68.00574205076995,
+        "matched_fine_accuracy_pct": 20.60752502588885,
+        "matched_parent_accuracy_pct": 55.09147393855713,
+        "all_gt_fine_accuracy_pct": 20.107780397440216,
+        "all_gt_parent_accuracy_pct": 53.75547322330751,
+        "fine_correct": 597,
+        "parent_correct": 1596,
+        "state_correct": 1090,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 2266,
+        "matched_state_accuracy_pct": 37.62512944425268,
+        "all_gt_state_accuracy_pct": 36.71269787807343,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 18.15426069383631,
+        "top1_parent_accuracy_pct": 51.633546648703266,
+        "top1_state_accuracy_pct": 35.904344897271805,
+        "top1_fine_and_iou50_accuracy_pct": 15.560794880431121,
+        "top1_mean_iou": 0.6745465069047378,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 26.37735582134839,
+        "parent_AP50": 39.315316729711206,
+        "delta_AP_vs_fixed_pp": -38.42838608615991,
+        "delta_AP_vs_rgb_pp": 0.0
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed2026_test\\test_summary.json",
+      "summary_sha256": "cc38a992dbf5a654e2ef7dd9d6750576877d95f906dcfe5c0af5ddd480529fce"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "flat",
+      "method": "gaussian_broadcast",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.81883119507085,
+        "AP50": 75.89370194733154,
+        "AP75": 59.826090278537635,
+        "AP_small": null,
+        "AP_medium": 46.75224421339304,
+        "AP_large": 60.41539277828667,
+        "AR1": 58.77290613013363,
+        "AR10": 70.04531513229047,
+        "AR100": 71.86940069805442,
+        "AR_small": null,
+        "AR_medium": 90.15555555555555,
+        "AR_large": 71.65746063486613,
+        "matched_fine_accuracy_pct": 98.82637210907836,
+        "matched_parent_accuracy_pct": 98.82637210907836,
+        "all_gt_fine_accuracy_pct": 96.42977433479285,
+        "all_gt_parent_accuracy_pct": 96.42977433479285,
+        "fine_correct": 2863,
+        "parent_correct": 2863,
+        "state_correct": 2884,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.55125992405937,
+        "all_gt_state_accuracy_pct": 97.13708319299427,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.75378915459751,
+        "top1_parent_accuracy_pct": 98.75378915459751,
+        "top1_state_accuracy_pct": 99.09060289659818,
+        "top1_fine_and_iou50_accuracy_pct": 80.9026608285618,
+        "top1_mean_iou": 0.7086285867714324,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.99500368320055,
+        "parent_AP50": 67.8488576023477,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 38.42838608615991
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed2026_test\\test_summary.json",
+      "summary_sha256": "cc38a992dbf5a654e2ef7dd9d6750576877d95f906dcfe5c0af5ddd480529fce"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "flat",
+      "method": "original_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.81883119507085,
+        "AP50": 75.89370194733154,
+        "AP75": 59.826090278537635,
+        "AP_small": null,
+        "AP_medium": 46.75224421339304,
+        "AP_large": 60.41539277828667,
+        "AR1": 58.77290613013363,
+        "AR10": 70.04531513229047,
+        "AR100": 71.86940069805442,
+        "AR_small": null,
+        "AR_medium": 90.15555555555555,
+        "AR_large": 71.65746063486613,
+        "matched_fine_accuracy_pct": 98.82637210907836,
+        "matched_parent_accuracy_pct": 98.82637210907836,
+        "all_gt_fine_accuracy_pct": 96.42977433479285,
+        "all_gt_parent_accuracy_pct": 96.42977433479285,
+        "fine_correct": 2863,
+        "parent_correct": 2863,
+        "state_correct": 2884,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.55125992405937,
+        "all_gt_state_accuracy_pct": 97.13708319299427,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.75378915459751,
+        "top1_parent_accuracy_pct": 98.75378915459751,
+        "top1_state_accuracy_pct": 99.09060289659818,
+        "top1_fine_and_iou50_accuracy_pct": 80.9026608285618,
+        "top1_mean_iou": 0.7086285867714324,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.99500368320055,
+        "parent_AP50": 67.8488576023477,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 38.42838608615991
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed2026_test\\test_summary.json",
+      "summary_sha256": "cc38a992dbf5a654e2ef7dd9d6750576877d95f906dcfe5c0af5ddd480529fce"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "flat",
+      "method": "original_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 56.81860737846186,
+        "AP50": 81.10038216941142,
+        "AP75": 64.7591111956466,
+        "AP_small": null,
+        "AP_medium": 48.457534921876906,
+        "AP_large": 62.399291147605794,
+        "AR1": 60.174815474883836,
+        "AR10": 70.15333638430985,
+        "AR100": 71.86940069805442,
+        "AR_small": null,
+        "AR_medium": 90.15555555555555,
+        "AR_large": 71.65746063486613,
+        "matched_fine_accuracy_pct": 99.44770452191922,
+        "matched_parent_accuracy_pct": 99.44770452191922,
+        "all_gt_fine_accuracy_pct": 97.03603907039407,
+        "all_gt_parent_accuracy_pct": 97.03603907039407,
+        "fine_correct": 2881,
+        "parent_correct": 2881,
+        "state_correct": 2894,
+        "corrected_vs_fixed": 18,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.89644459785985,
+        "all_gt_state_accuracy_pct": 97.47389693499495,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.46109801279893,
+        "top1_parent_accuracy_pct": 99.46109801279893,
+        "top1_state_accuracy_pct": 99.59582350959919,
+        "top1_fine_and_iou50_accuracy_pct": 83.19299427416638,
+        "top1_mean_iou": 0.7270924036115124,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 51.71101408339116,
+        "parent_AP50": 74.0958943554152,
+        "delta_AP_vs_fixed_pp": 3.9997761833910133,
+        "delta_AP_vs_rgb_pp": 42.428162269550924
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed2026_test\\test_summary.json",
+      "summary_sha256": "cc38a992dbf5a654e2ef7dd9d6750576877d95f906dcfe5c0af5ddd480529fce"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "flat",
+      "method": "mean_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.81883119507085,
+        "AP50": 75.89370194733154,
+        "AP75": 59.826090278537635,
+        "AP_small": null,
+        "AP_medium": 46.75224421339304,
+        "AP_large": 60.41539277828667,
+        "AR1": 58.77290613013363,
+        "AR10": 70.04531513229047,
+        "AR100": 71.86940069805442,
+        "AR_small": null,
+        "AR_medium": 90.15555555555555,
+        "AR_large": 71.65746063486613,
+        "matched_fine_accuracy_pct": 98.82637210907836,
+        "matched_parent_accuracy_pct": 98.82637210907836,
+        "all_gt_fine_accuracy_pct": 96.42977433479285,
+        "all_gt_parent_accuracy_pct": 96.42977433479285,
+        "fine_correct": 2863,
+        "parent_correct": 2863,
+        "state_correct": 2884,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.55125992405937,
+        "all_gt_state_accuracy_pct": 97.13708319299427,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.75378915459751,
+        "top1_parent_accuracy_pct": 98.75378915459751,
+        "top1_state_accuracy_pct": 99.09060289659818,
+        "top1_fine_and_iou50_accuracy_pct": 80.9026608285618,
+        "top1_mean_iou": 0.7086285867714324,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.99500368320055,
+        "parent_AP50": 67.8488576023477,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 38.42838608615991
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed2026_test\\test_summary.json",
+      "summary_sha256": "cc38a992dbf5a654e2ef7dd9d6750576877d95f906dcfe5c0af5ddd480529fce"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "flat",
+      "method": "mean_full",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 57.175502109333785,
+        "AP50": 80.94644409535535,
+        "AP75": 66.03123616762906,
+        "AP_small": null,
+        "AP_medium": 42.27903330262005,
+        "AP_large": 63.12526106922095,
+        "AR1": 59.525291367110775,
+        "AR10": 70.18691702290528,
+        "AR100": 71.86940069805442,
+        "AR_small": null,
+        "AR_medium": 90.15555555555555,
+        "AR_large": 71.65746063486613,
+        "matched_fine_accuracy_pct": 99.75837072833966,
+        "matched_parent_accuracy_pct": 99.75837072833966,
+        "all_gt_fine_accuracy_pct": 97.33917143819468,
+        "all_gt_parent_accuracy_pct": 97.33917143819468,
+        "fine_correct": 2890,
+        "parent_correct": 2890,
+        "state_correct": 2896,
+        "corrected_vs_fixed": 34,
+        "harmed_vs_fixed": 7,
+        "matched_state_accuracy_pct": 99.96548153261995,
+        "all_gt_state_accuracy_pct": 97.54125968339508,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.22532839339846,
+        "top1_parent_accuracy_pct": 99.22532839339846,
+        "top1_state_accuracy_pct": 99.86527450319973,
+        "top1_fine_and_iou50_accuracy_pct": 82.11519029976424,
+        "top1_mean_iou": 0.7201327873693841,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 52.09229673097068,
+        "parent_AP50": 73.7861556986293,
+        "delta_AP_vs_fixed_pp": 4.356670914262935,
+        "delta_AP_vs_rgb_pp": 42.785057000422846
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed2026_test\\test_summary.json",
+      "summary_sha256": "cc38a992dbf5a654e2ef7dd9d6750576877d95f906dcfe5c0af5ddd480529fce"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "flat",
+      "method": "mean_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 56.81860737846186,
+        "AP50": 81.10038216941142,
+        "AP75": 64.7591111956466,
+        "AP_small": null,
+        "AP_medium": 48.457534921876906,
+        "AP_large": 62.399291147605794,
+        "AR1": 60.174815474883836,
+        "AR10": 70.15333638430985,
+        "AR100": 71.86940069805442,
+        "AR_small": null,
+        "AR_medium": 90.15555555555555,
+        "AR_large": 71.65746063486613,
+        "matched_fine_accuracy_pct": 99.44770452191922,
+        "matched_parent_accuracy_pct": 99.44770452191922,
+        "all_gt_fine_accuracy_pct": 97.03603907039407,
+        "all_gt_parent_accuracy_pct": 97.03603907039407,
+        "fine_correct": 2881,
+        "parent_correct": 2881,
+        "state_correct": 2894,
+        "corrected_vs_fixed": 18,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.89644459785985,
+        "all_gt_state_accuracy_pct": 97.47389693499495,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.46109801279893,
+        "top1_parent_accuracy_pct": 99.46109801279893,
+        "top1_state_accuracy_pct": 99.59582350959919,
+        "top1_fine_and_iou50_accuracy_pct": 83.19299427416638,
+        "top1_mean_iou": 0.7270924036115124,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 51.71101408339116,
+        "parent_AP50": 74.0958943554152,
+        "delta_AP_vs_fixed_pp": 3.9997761833910133,
+        "delta_AP_vs_rgb_pp": 42.428162269550924
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\flat_seed2026_test\\test_summary.json",
+      "summary_sha256": "cc38a992dbf5a654e2ef7dd9d6750576877d95f906dcfe5c0af5ddd480529fce"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "is",
+      "method": "rgb",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 15.083579733602667,
+        "AP50": 22.52308388063472,
+        "AP75": 16.632313911320352,
+        "AP_small": null,
+        "AP_medium": 13.35980093612715,
+        "AP_large": 21.808786959870794,
+        "AR1": 57.31996430918971,
+        "AR10": 66.33730318602368,
+        "AR100": 67.07890485221365,
+        "AR_small": null,
+        "AR_medium": 80.52222222222221,
+        "AR_large": 66.92505347821405,
+        "matched_fine_accuracy_pct": 22.09582902447432,
+        "matched_parent_accuracy_pct": 57.70423991726991,
+        "all_gt_fine_accuracy_pct": 21.58976086224318,
+        "all_gt_parent_accuracy_pct": 56.382620410912764,
+        "fine_correct": 641,
+        "parent_correct": 1674,
+        "state_correct": 1170,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 2255,
+        "matched_state_accuracy_pct": 40.33092037228542,
+        "all_gt_state_accuracy_pct": 39.40720781407882,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 20.006736274840012,
+        "top1_parent_accuracy_pct": 52.23981138430448,
+        "top1_state_accuracy_pct": 38.32940383967666,
+        "top1_fine_and_iou50_accuracy_pct": 18.288986190636578,
+        "top1_mean_iou": 0.665882835326833,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 25.22896560375387,
+        "parent_AP50": 39.098665924540384,
+        "delta_AP_vs_fixed_pp": -37.76326959178639,
+        "delta_AP_vs_rgb_pp": 0.0
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed2026_test\\test_summary.json",
+      "summary_sha256": "fc16a14c896085e17f6e63c21c98b52c865b4f3123d083e4ae2bc51ec52d9d41"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "is",
+      "method": "gaussian_broadcast",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.84684932538906,
+        "AP50": 78.16794633872648,
+        "AP75": 58.8193324583408,
+        "AP_small": null,
+        "AP_medium": 47.4270854887607,
+        "AP_large": 59.576826165733586,
+        "AR1": 58.341340501832065,
+        "AR10": 69.7976440216964,
+        "AR100": 71.26253668406419,
+        "AR_small": null,
+        "AR_medium": 87.83333333333334,
+        "AR_large": 71.08676093230119,
+        "matched_fine_accuracy_pct": 99.82764563943468,
+        "matched_parent_accuracy_pct": 99.82764563943468,
+        "all_gt_fine_accuracy_pct": 97.54125968339508,
+        "all_gt_parent_accuracy_pct": 97.54125968339508,
+        "fine_correct": 2896,
+        "parent_correct": 2896,
+        "state_correct": 2899,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.93105825577388,
+        "all_gt_state_accuracy_pct": 97.64230380599528,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.12428427079824,
+        "top1_parent_accuracy_pct": 99.12428427079824,
+        "top1_state_accuracy_pct": 99.62950488379926,
+        "top1_fine_and_iou50_accuracy_pct": 80.53216571236106,
+        "top1_mean_iou": 0.702438419488941,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.99281601401559,
+        "parent_AP50": 71.04974632001641,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.76326959178639
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed2026_test\\test_summary.json",
+      "summary_sha256": "fc16a14c896085e17f6e63c21c98b52c865b4f3123d083e4ae2bc51ec52d9d41"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "is",
+      "method": "original_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.84684932538906,
+        "AP50": 78.16794633872648,
+        "AP75": 58.8193324583408,
+        "AP_small": null,
+        "AP_medium": 47.4270854887607,
+        "AP_large": 59.576826165733586,
+        "AR1": 58.341340501832065,
+        "AR10": 69.7976440216964,
+        "AR100": 71.26253668406419,
+        "AR_small": null,
+        "AR_medium": 87.83333333333334,
+        "AR_large": 71.08676093230119,
+        "matched_fine_accuracy_pct": 99.82764563943468,
+        "matched_parent_accuracy_pct": 99.82764563943468,
+        "all_gt_fine_accuracy_pct": 97.54125968339508,
+        "all_gt_parent_accuracy_pct": 97.54125968339508,
+        "fine_correct": 2896,
+        "parent_correct": 2896,
+        "state_correct": 2899,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.93105825577388,
+        "all_gt_state_accuracy_pct": 97.64230380599528,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.12428427079824,
+        "top1_parent_accuracy_pct": 99.12428427079824,
+        "top1_state_accuracy_pct": 99.62950488379926,
+        "top1_fine_and_iou50_accuracy_pct": 80.53216571236106,
+        "top1_mean_iou": 0.702438419488941,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.99281601401559,
+        "parent_AP50": 71.04974632001641,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.76326959178639
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed2026_test\\test_summary.json",
+      "summary_sha256": "fc16a14c896085e17f6e63c21c98b52c865b4f3123d083e4ae2bc51ec52d9d41"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "is",
+      "method": "original_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 57.55568224783235,
+        "AP50": 84.29339458472114,
+        "AP75": 64.42318118166807,
+        "AP_small": null,
+        "AP_medium": 47.7610825854947,
+        "AP_large": 62.02018561289273,
+        "AR1": 61.55720292687552,
+        "AR10": 69.99105535573274,
+        "AR100": 71.26253668406419,
+        "AR_small": null,
+        "AR_medium": 87.83333333333334,
+        "AR_large": 71.08676093230119,
+        "matched_fine_accuracy_pct": 99.93105825577388,
+        "matched_parent_accuracy_pct": 99.93105825577388,
+        "all_gt_fine_accuracy_pct": 97.64230380599528,
+        "all_gt_parent_accuracy_pct": 97.64230380599528,
+        "fine_correct": 2899,
+        "parent_correct": 2899,
+        "state_correct": 2899,
+        "corrected_vs_fixed": 4,
+        "harmed_vs_fixed": 1,
+        "matched_state_accuracy_pct": 99.93105825577388,
+        "all_gt_state_accuracy_pct": 97.64230380599528,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.52846076119906,
+        "top1_parent_accuracy_pct": 99.52846076119906,
+        "top1_state_accuracy_pct": 99.76423038059953,
+        "top1_fine_and_iou50_accuracy_pct": 85.1465139777703,
+        "top1_mean_iou": 0.7424348244239592,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 52.58141307346643,
+        "parent_AP50": 78.48739775636268,
+        "delta_AP_vs_fixed_pp": 4.7088329224432925,
+        "delta_AP_vs_rgb_pp": 42.47210251422968
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed2026_test\\test_summary.json",
+      "summary_sha256": "fc16a14c896085e17f6e63c21c98b52c865b4f3123d083e4ae2bc51ec52d9d41"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "is",
+      "method": "mean_original",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 52.84684932538906,
+        "AP50": 78.16794633872648,
+        "AP75": 58.8193324583408,
+        "AP_small": null,
+        "AP_medium": 47.4270854887607,
+        "AP_large": 59.576826165733586,
+        "AR1": 58.341340501832065,
+        "AR10": 69.7976440216964,
+        "AR100": 71.26253668406419,
+        "AR_small": null,
+        "AR_medium": 87.83333333333334,
+        "AR_large": 71.08676093230119,
+        "matched_fine_accuracy_pct": 99.82764563943468,
+        "matched_parent_accuracy_pct": 99.82764563943468,
+        "all_gt_fine_accuracy_pct": 97.54125968339508,
+        "all_gt_parent_accuracy_pct": 97.54125968339508,
+        "fine_correct": 2896,
+        "parent_correct": 2896,
+        "state_correct": 2899,
+        "corrected_vs_fixed": 0,
+        "harmed_vs_fixed": 0,
+        "matched_state_accuracy_pct": 99.93105825577388,
+        "all_gt_state_accuracy_pct": 97.64230380599528,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.12428427079824,
+        "top1_parent_accuracy_pct": 99.12428427079824,
+        "top1_state_accuracy_pct": 99.62950488379926,
+        "top1_fine_and_iou50_accuracy_pct": 80.53216571236106,
+        "top1_mean_iou": 0.702438419488941,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 46.99281601401559,
+        "parent_AP50": 71.04974632001641,
+        "delta_AP_vs_fixed_pp": 0.0,
+        "delta_AP_vs_rgb_pp": 37.76326959178639
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed2026_test\\test_summary.json",
+      "summary_sha256": "fc16a14c896085e17f6e63c21c98b52c865b4f3123d083e4ae2bc51ec52d9d41"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "is",
+      "method": "mean_full",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 56.834801560332004,
+        "AP50": 82.44697301298513,
+        "AP75": 64.27732863691567,
+        "AP_small": null,
+        "AP_medium": 35.7970411389351,
+        "AP_large": 62.710900213611865,
+        "AR1": 60.685503052268466,
+        "AR10": 70.06547820368255,
+        "AR100": 71.26253668406419,
+        "AR_small": null,
+        "AR_medium": 87.83333333333334,
+        "AR_large": 71.08676093230119,
+        "matched_fine_accuracy_pct": 99.82764563943468,
+        "matched_parent_accuracy_pct": 99.82764563943468,
+        "all_gt_fine_accuracy_pct": 97.54125968339508,
+        "all_gt_parent_accuracy_pct": 97.54125968339508,
+        "fine_correct": 2896,
+        "parent_correct": 2896,
+        "state_correct": 2897,
+        "corrected_vs_fixed": 5,
+        "harmed_vs_fixed": 5,
+        "matched_state_accuracy_pct": 99.86211651154774,
+        "all_gt_state_accuracy_pct": 97.57494105759515,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 98.95587739979791,
+        "top1_parent_accuracy_pct": 98.95587739979791,
+        "top1_state_accuracy_pct": 99.49477938699899,
+        "top1_fine_and_iou50_accuracy_pct": 84.13607275176827,
+        "top1_mean_iou": 0.7322476994621875,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 51.6156481486739,
+        "parent_AP50": 75.66174552422848,
+        "delta_AP_vs_fixed_pp": 3.987952234942945,
+        "delta_AP_vs_rgb_pp": 41.751221826729335
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed2026_test\\test_summary.json",
+      "summary_sha256": "fc16a14c896085e17f6e63c21c98b52c865b4f3123d083e4ae2bc51ec52d9d41"
+    },
+    {
+      "training_seed": 2026,
+      "visual_variant": "is",
+      "method": "mean_half",
+      "role": "equal_budget_main_branch",
+      "metrics": {
+        "AP": 57.55568224783235,
+        "AP50": 84.29339458472114,
+        "AP75": 64.42318118166807,
+        "AP_small": null,
+        "AP_medium": 47.7610825854947,
+        "AP_large": 62.02018561289273,
+        "AR1": 61.55720292687552,
+        "AR10": 69.99105535573274,
+        "AR100": 71.26253668406419,
+        "AR_small": null,
+        "AR_medium": 87.83333333333334,
+        "AR_large": 71.08676093230119,
+        "matched_fine_accuracy_pct": 99.93105825577388,
+        "matched_parent_accuracy_pct": 99.93105825577388,
+        "all_gt_fine_accuracy_pct": 97.64230380599528,
+        "all_gt_parent_accuracy_pct": 97.64230380599528,
+        "fine_correct": 2899,
+        "parent_correct": 2899,
+        "state_correct": 2899,
+        "corrected_vs_fixed": 4,
+        "harmed_vs_fixed": 1,
+        "matched_state_accuracy_pct": 99.93105825577388,
+        "all_gt_state_accuracy_pct": 97.64230380599528,
+        "single_target_images": 2969,
+        "multi_or_zero_target_images": 0,
+        "top1_fine_accuracy_pct": 99.52846076119906,
+        "top1_parent_accuracy_pct": 99.52846076119906,
+        "top1_state_accuracy_pct": 99.76423038059953,
+        "top1_fine_and_iou50_accuracy_pct": 85.1465139777703,
+        "top1_mean_iou": 0.7424348244239592,
+        "top1_scope": "global highest-score detection over all model leaves; single-GT photos only",
+        "parent_AP": 52.58141307346643,
+        "parent_AP50": 78.48739775636268,
+        "delta_AP_vs_fixed_pp": 4.7088329224432925,
+        "delta_AP_vs_rgb_pp": 42.47210251422968
+      },
+      "summary_file": "E:\\ISW_DETR_external_data\\CCCM_full_20261024\\evaluations\\is_seed2026_test\\test_summary.json",
+      "summary_sha256": "fc16a14c896085e17f6e63c21c98b52c865b4f3123d083e4ae2bc51ec52d9d41"
+    }
+  ],
+  "mean_sample_sd": [
+    {
+      "visual_variant": "base",
+      "method": "rgb",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 16.57101769999882,
+          "sample_sd": 2.9500086221892414,
+          "minimum": 14.779509434802163,
+          "maximum": 19.975840279808168,
+          "values": [
+            14.779509434802163,
+            19.975840279808168,
+            14.957703385386129
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 27.198818615417018,
+          "sample_sd": 2.9124793939554037,
+          "minimum": 24.817857360266597,
+          "maximum": 30.446191035556737,
+          "values": [
+            26.332407450427723,
+            30.446191035556737,
+            24.817857360266597
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 23.823958684180983,
+          "sample_sd": 3.4226530096708006,
+          "minimum": 20.30986864264062,
+          "maximum": 27.147187605254295,
+          "values": [
+            24.01481980464803,
+            27.147187605254295,
+            20.30986864264062
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 41.84349388121702,
+          "sample_sd": 3.6410692359656323,
+          "minimum": 37.72313910407544,
+          "maximum": 44.62782081508926,
+          "values": [
+            43.17952172448636,
+            44.62782081508926,
+            37.72313910407544
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 22.184798473111037,
+          "sample_sd": 3.659095467104393,
+          "minimum": 18.423711687436846,
+          "maximum": 25.732569888851465,
+          "values": [
+            22.398113843044797,
+            25.732569888851465,
+            18.423711687436846
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "base",
+      "method": "gaussian_broadcast",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 54.494989092094706,
+          "sample_sd": 2.733546665674942,
+          "minimum": 52.36549599026138,
+          "maximum": 57.577462512623754,
+          "values": [
+            53.542008773398976,
+            57.577462512623754,
+            52.36549599026138
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 48.28783447825154,
+          "sample_sd": 3.244994943289847,
+          "minimum": 46.10403988808204,
+          "maximum": 52.016637739224436,
+          "values": [
+            46.10403988808204,
+            52.016637739224436,
+            46.74282580744814
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.69765353093074,
+          "sample_sd": 1.018455549224352,
+          "minimum": 97.54125968339508,
+          "maximum": 99.46109801279893,
+          "values": [
+            99.09060289659818,
+            97.54125968339508,
+            99.46109801279893
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.58459638486583,
+          "sample_sd": 0.05144914892731228,
+          "minimum": 99.52846076119906,
+          "maximum": 99.62950488379926,
+          "values": [
+            99.52846076119906,
+            99.59582350959919,
+            99.62950488379926
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 83.45121814303357,
+          "sample_sd": 3.217291219810015,
+          "minimum": 80.19535197036039,
+          "maximum": 86.62849444257326,
+          "values": [
+            83.52980801616705,
+            86.62849444257326,
+            80.19535197036039
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "base",
+      "method": "original_original",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 54.494989092094706,
+          "sample_sd": 2.733546665674942,
+          "minimum": 52.36549599026138,
+          "maximum": 57.577462512623754,
+          "values": [
+            53.542008773398976,
+            57.577462512623754,
+            52.36549599026138
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 48.28783447825154,
+          "sample_sd": 3.244994943289847,
+          "minimum": 46.10403988808204,
+          "maximum": 52.016637739224436,
+          "values": [
+            46.10403988808204,
+            52.016637739224436,
+            46.74282580744814
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.69765353093074,
+          "sample_sd": 1.018455549224352,
+          "minimum": 97.54125968339508,
+          "maximum": 99.46109801279893,
+          "values": [
+            99.09060289659818,
+            97.54125968339508,
+            99.46109801279893
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.58459638486583,
+          "sample_sd": 0.05144914892731228,
+          "minimum": 99.52846076119906,
+          "maximum": 99.62950488379926,
+          "values": [
+            99.52846076119906,
+            99.59582350959919,
+            99.62950488379926
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 83.45121814303357,
+          "sample_sd": 3.217291219810015,
+          "minimum": 80.19535197036039,
+          "maximum": 86.62849444257326,
+          "values": [
+            83.52980801616705,
+            86.62849444257326,
+            80.19535197036039
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "base",
+      "method": "original_half",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 58.01347889431479,
+          "sample_sd": 1.796659790992953,
+          "minimum": 56.445119416588376,
+          "maximum": 59.973742310490174,
+          "values": [
+            56.445119416588376,
+            59.973742310490174,
+            57.6215749558658
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 53.10626282448567,
+          "sample_sd": 2.0272537697341986,
+          "minimum": 51.384573540395074,
+          "maximum": 55.34064208702192,
+          "values": [
+            51.384573540395074,
+            55.34064208702192,
+            52.593572846040004
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.89974177613114,
+          "sample_sd": 1.0572589978213527,
+          "minimum": 97.70966655439543,
+          "maximum": 99.73054900639946,
+          "values": [
+            99.25900976759851,
+            97.70966655439543,
+            99.73054900639946
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.65195913326598,
+          "sample_sd": 0.1555676036886775,
+          "minimum": 99.56214213539913,
+          "maximum": 99.83159312899966,
+          "values": [
+            99.56214213539913,
+            99.56214213539913,
+            99.83159312899966
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 86.44886044683956,
+          "sample_sd": 2.8289012724547864,
+          "minimum": 84.20343550016841,
+          "maximum": 89.62613674637925,
+          "values": [
+            85.51700909397104,
+            89.62613674637925,
+            84.20343550016841
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "base",
+      "method": "mean_original",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 54.494989092094706,
+          "sample_sd": 2.733546665674942,
+          "minimum": 52.36549599026138,
+          "maximum": 57.577462512623754,
+          "values": [
+            53.542008773398976,
+            57.577462512623754,
+            52.36549599026138
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 48.28783447825154,
+          "sample_sd": 3.244994943289847,
+          "minimum": 46.10403988808204,
+          "maximum": 52.016637739224436,
+          "values": [
+            46.10403988808204,
+            52.016637739224436,
+            46.74282580744814
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.69765353093074,
+          "sample_sd": 1.018455549224352,
+          "minimum": 97.54125968339508,
+          "maximum": 99.46109801279893,
+          "values": [
+            99.09060289659818,
+            97.54125968339508,
+            99.46109801279893
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.58459638486583,
+          "sample_sd": 0.05144914892731228,
+          "minimum": 99.52846076119906,
+          "maximum": 99.62950488379926,
+          "values": [
+            99.52846076119906,
+            99.59582350959919,
+            99.62950488379926
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 83.45121814303357,
+          "sample_sd": 3.217291219810015,
+          "minimum": 80.19535197036039,
+          "maximum": 86.62849444257326,
+          "values": [
+            83.52980801616705,
+            86.62849444257326,
+            80.19535197036039
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "base",
+      "method": "mean_full",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 57.22309915866162,
+          "sample_sd": 0.9654218178811415,
+          "minimum": 56.16795512645073,
+          "maximum": 58.0621877712884,
+          "values": [
+            56.16795512645073,
+            58.0621877712884,
+            57.43915457824572
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 51.82271579723706,
+          "sample_sd": 1.0079192442634952,
+          "minimum": 50.97958883239371,
+          "maximum": 52.93908421186793,
+          "values": [
+            50.97958883239371,
+            52.93908421186793,
+            51.54947434744953
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.5292466599304,
+          "sample_sd": 1.4728943627479933,
+          "minimum": 96.83395082519367,
+          "maximum": 99.49477938699899,
+          "values": [
+            99.49477938699899,
+            96.83395082519367,
+            99.25900976759851
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.25900976759851,
+          "sample_sd": 0.7877410281930963,
+          "minimum": 98.3496126641967,
+          "maximum": 99.73054900639946,
+          "values": [
+            99.6968676321994,
+            98.3496126641967,
+            99.73054900639946
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 85.67418884023802,
+          "sample_sd": 1.7188504302801497,
+          "minimum": 83.73189626136747,
+          "maximum": 86.998989558774,
+          "values": [
+            86.29168070057258,
+            86.998989558774,
+            83.73189626136747
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "base",
+      "method": "mean_half",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 58.01347889431479,
+          "sample_sd": 1.796659790992953,
+          "minimum": 56.445119416588376,
+          "maximum": 59.973742310490174,
+          "values": [
+            56.445119416588376,
+            59.973742310490174,
+            57.6215749558658
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 53.10626282448567,
+          "sample_sd": 2.0272537697341986,
+          "minimum": 51.384573540395074,
+          "maximum": 55.34064208702192,
+          "values": [
+            51.384573540395074,
+            55.34064208702192,
+            52.593572846040004
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.89974177613114,
+          "sample_sd": 1.0572589978213527,
+          "minimum": 97.70966655439543,
+          "maximum": 99.73054900639946,
+          "values": [
+            99.25900976759851,
+            97.70966655439543,
+            99.73054900639946
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.65195913326598,
+          "sample_sd": 0.1555676036886775,
+          "minimum": 99.56214213539913,
+          "maximum": 99.83159312899966,
+          "values": [
+            99.56214213539913,
+            99.56214213539913,
+            99.83159312899966
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 86.44886044683956,
+          "sample_sd": 2.8289012724547864,
+          "minimum": 84.20343550016841,
+          "maximum": 89.62613674637925,
+          "values": [
+            85.51700909397104,
+            89.62613674637925,
+            84.20343550016841
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "flat",
+      "method": "rgb",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 13.36187650284843,
+          "sample_sd": 1.9560106157740274,
+          "minimum": 11.106181135195252,
+          "maximum": 14.589003264439096,
+          "values": [
+            11.106181135195252,
+            14.589003264439096,
+            14.39044510891094
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 21.572241201298002,
+          "sample_sd": 4.314513029389248,
+          "minimum": 18.03030783530924,
+          "maximum": 26.37735582134839,
+          "values": [
+            18.03030783530924,
+            20.309059947236378,
+            26.37735582134839
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 20.130234646906928,
+          "sample_sd": 2.859017679110272,
+          "minimum": 18.15426069383631,
+          "maximum": 23.408555069046816,
+          "values": [
+            18.827888177837657,
+            23.408555069046816,
+            18.15426069383631
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 38.610081958010554,
+          "sample_sd": 2.364982565951347,
+          "minimum": 35.904344897271805,
+          "maximum": 40.28292354328057,
+          "values": [
+            39.64297743347929,
+            40.28292354328057,
+            35.904344897271805
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 17.974626698102615,
+          "sample_sd": 2.9192899178811653,
+          "minimum": 15.560794880431121,
+          "maximum": 21.21926574604244,
+          "values": [
+            17.143819467834287,
+            21.21926574604244,
+            15.560794880431121
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "flat",
+      "method": "gaussian_broadcast",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 48.56622380723527,
+          "sample_sd": 4.222530194929416,
+          "minimum": 44.37442766579187,
+          "maximum": 52.81883119507085,
+          "values": [
+            44.37442766579187,
+            48.505412560843084,
+            52.81883119507085
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 42.60608108899606,
+          "sample_sd": 5.27630977395158,
+          "minimum": 36.75204827636663,
+          "maximum": 46.99500368320055,
+          "values": [
+            36.75204827636663,
+            44.07119130742102,
+            46.99500368320055
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.46188391153026,
+          "sample_sd": 0.2550312493903809,
+          "minimum": 98.28224991579657,
+          "maximum": 98.75378915459751,
+          "values": [
+            98.28224991579657,
+            98.3496126641967,
+            98.75378915459751
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.16919276973167,
+          "sample_sd": 0.29427062809208665,
+          "minimum": 98.92219602559784,
+          "maximum": 99.49477938699899,
+          "values": [
+            98.92219602559784,
+            99.49477938699899,
+            99.09060289659818
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 77.53452340855507,
+          "sample_sd": 3.334966330612748,
+          "minimum": 74.23374873694847,
+          "maximum": 80.9026608285618,
+          "values": [
+            74.23374873694847,
+            77.46716066015493,
+            80.9026608285618
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "flat",
+      "method": "original_original",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 48.56622380723527,
+          "sample_sd": 4.222530194929416,
+          "minimum": 44.37442766579187,
+          "maximum": 52.81883119507085,
+          "values": [
+            44.37442766579187,
+            48.505412560843084,
+            52.81883119507085
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 42.60608108899606,
+          "sample_sd": 5.27630977395158,
+          "minimum": 36.75204827636663,
+          "maximum": 46.99500368320055,
+          "values": [
+            36.75204827636663,
+            44.07119130742102,
+            46.99500368320055
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.46188391153026,
+          "sample_sd": 0.2550312493903809,
+          "minimum": 98.28224991579657,
+          "maximum": 98.75378915459751,
+          "values": [
+            98.28224991579657,
+            98.3496126641967,
+            98.75378915459751
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.16919276973167,
+          "sample_sd": 0.29427062809208665,
+          "minimum": 98.92219602559784,
+          "maximum": 99.49477938699899,
+          "values": [
+            98.92219602559784,
+            99.49477938699899,
+            99.09060289659818
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 77.53452340855507,
+          "sample_sd": 3.334966330612748,
+          "minimum": 74.23374873694847,
+          "maximum": 80.9026608285618,
+          "values": [
+            74.23374873694847,
+            77.46716066015493,
+            80.9026608285618
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "flat",
+      "method": "original_half",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 52.382888189327936,
+          "sample_sd": 4.7635997004552175,
+          "minimum": 47.3480836960207,
+          "maximum": 56.81860737846186,
+          "values": [
+            47.3480836960207,
+            52.981973493501236,
+            56.81860737846186
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 47.02000648054452,
+          "sample_sd": 5.377799208168096,
+          "minimum": 41.15078871855351,
+          "maximum": 51.71101408339116,
+          "values": [
+            41.15078871855351,
+            48.19821663968889,
+            51.71101408339116
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 99.09060289659818,
+          "sample_sd": 0.37049511620074327,
+          "minimum": 98.72010778039744,
+          "maximum": 99.46109801279893,
+          "values": [
+            99.09060289659818,
+            98.72010778039744,
+            99.46109801279893
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.53968788593241,
+          "sample_sd": 0.22426164090533254,
+          "minimum": 99.29269114179858,
+          "maximum": 99.73054900639946,
+          "values": [
+            99.29269114179858,
+            99.73054900639946,
+            99.59582350959919
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 81.05984057482878,
+          "sample_sd": 3.3508030415609964,
+          "minimum": 77.1977096665544,
+          "maximum": 83.19299427416638,
+          "values": [
+            77.1977096665544,
+            82.78881778376558,
+            83.19299427416638
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "flat",
+      "method": "mean_original",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 48.56622380723527,
+          "sample_sd": 4.222530194929416,
+          "minimum": 44.37442766579187,
+          "maximum": 52.81883119507085,
+          "values": [
+            44.37442766579187,
+            48.505412560843084,
+            52.81883119507085
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 42.60608108899606,
+          "sample_sd": 5.27630977395158,
+          "minimum": 36.75204827636663,
+          "maximum": 46.99500368320055,
+          "values": [
+            36.75204827636663,
+            44.07119130742102,
+            46.99500368320055
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.46188391153026,
+          "sample_sd": 0.2550312493903809,
+          "minimum": 98.28224991579657,
+          "maximum": 98.75378915459751,
+          "values": [
+            98.28224991579657,
+            98.3496126641967,
+            98.75378915459751
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.16919276973167,
+          "sample_sd": 0.29427062809208665,
+          "minimum": 98.92219602559784,
+          "maximum": 99.49477938699899,
+          "values": [
+            98.92219602559784,
+            99.49477938699899,
+            99.09060289659818
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 77.53452340855507,
+          "sample_sd": 3.334966330612748,
+          "minimum": 74.23374873694847,
+          "maximum": 80.9026608285618,
+          "values": [
+            74.23374873694847,
+            77.46716066015493,
+            80.9026608285618
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "flat",
+      "method": "mean_full",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 51.72462138787025,
+          "sample_sd": 5.415597195588155,
+          "minimum": 46.3450111936227,
+          "maximum": 57.175502109333785,
+          "values": [
+            46.3450111936227,
+            51.65335086065427,
+            57.175502109333785
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 45.95365530308843,
+          "sample_sd": 5.607330683936288,
+          "minimum": 41.1010879814317,
+          "maximum": 52.09229673097068,
+          "values": [
+            41.1010879814317,
+            44.66758119686291,
+            52.09229673097068
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.6302907825306,
+          "sample_sd": 0.916438771175144,
+          "minimum": 97.57494105759515,
+          "maximum": 99.22532839339846,
+          "values": [
+            99.09060289659818,
+            97.57494105759515,
+            99.22532839339846
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.46109801279891,
+          "sample_sd": 0.3750599099245573,
+          "minimum": 99.12428427079824,
+          "maximum": 99.86527450319973,
+          "values": [
+            99.39373526439879,
+            99.12428427079824,
+            99.86527450319973
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 79.82485685415965,
+          "sample_sd": 3.029826358241705,
+          "minimum": 76.38935668575277,
+          "maximum": 82.11519029976424,
+          "values": [
+            76.38935668575277,
+            80.97002357696194,
+            82.11519029976424
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "flat",
+      "method": "mean_half",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 52.382888189327936,
+          "sample_sd": 4.7635997004552175,
+          "minimum": 47.3480836960207,
+          "maximum": 56.81860737846186,
+          "values": [
+            47.3480836960207,
+            52.981973493501236,
+            56.81860737846186
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 47.02000648054452,
+          "sample_sd": 5.377799208168096,
+          "minimum": 41.15078871855351,
+          "maximum": 51.71101408339116,
+          "values": [
+            41.15078871855351,
+            48.19821663968889,
+            51.71101408339116
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 99.09060289659818,
+          "sample_sd": 0.37049511620074327,
+          "minimum": 98.72010778039744,
+          "maximum": 99.46109801279893,
+          "values": [
+            99.09060289659818,
+            98.72010778039744,
+            99.46109801279893
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.53968788593241,
+          "sample_sd": 0.22426164090533254,
+          "minimum": 99.29269114179858,
+          "maximum": 99.73054900639946,
+          "values": [
+            99.29269114179858,
+            99.73054900639946,
+            99.59582350959919
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 81.05984057482878,
+          "sample_sd": 3.3508030415609964,
+          "minimum": 77.1977096665544,
+          "maximum": 83.19299427416638,
+          "values": [
+            77.1977096665544,
+            82.78881778376558,
+            83.19299427416638
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "is",
+      "method": "rgb",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 16.597399811639818,
+          "sample_sd": 2.791774789105461,
+          "minimum": 14.889503965485376,
+          "maximum": 19.81911573583141,
+          "values": [
+            14.889503965485376,
+            19.81911573583141,
+            15.083579733602667
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 26.917120388386753,
+          "sample_sd": 2.635038013555965,
+          "minimum": 25.22896560375387,
+          "maximum": 29.953462682631287,
+          "values": [
+            25.568932878775097,
+            29.953462682631287,
+            25.22896560375387
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 22.981924329179297,
+          "sample_sd": 2.997894588127585,
+          "minimum": 20.006736274840012,
+          "maximum": 26.002020882452005,
+          "values": [
+            22.937015830245873,
+            26.002020882452005,
+            20.006736274840012
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 41.4168631413495,
+          "sample_sd": 2.6971049589953227,
+          "minimum": 38.32940383967666,
+          "maximum": 43.31424722128663,
+          "values": [
+            42.60693836308521,
+            43.31424722128663,
+            38.32940383967666
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 21.45503536544291,
+          "sample_sd": 3.2535231190901825,
+          "minimum": 18.288986190636578,
+          "maximum": 24.78949141124958,
+          "values": [
+            21.286628494442574,
+            24.78949141124958,
+            18.288986190636578
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "is",
+      "method": "gaussian_broadcast",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 53.76794458877553,
+          "sample_sd": 2.1915525506864713,
+          "minimum": 52.18726949395271,
+          "maximum": 56.26971494698482,
+          "values": [
+            52.18726949395271,
+            56.26971494698482,
+            52.84684932538906
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 47.65582309086936,
+          "sample_sd": 2.81615128079351,
+          "minimum": 45.23033111817435,
+          "maximum": 50.74432214041814,
+          "values": [
+            45.23033111817435,
+            50.74432214041814,
+            46.99281601401559
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.66397215673065,
+          "sample_sd": 0.4548024946789945,
+          "minimum": 98.21488716739643,
+          "maximum": 99.12428427079824,
+          "values": [
+            98.6527450319973,
+            98.21488716739643,
+            99.12428427079824
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.6182777590659,
+          "sample_sd": 0.11828509883072588,
+          "minimum": 99.49477938699899,
+          "maximum": 99.73054900639946,
+          "values": [
+            99.49477938699899,
+            99.73054900639946,
+            99.62950488379926
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 82.77759065903223,
+          "sample_sd": 2.8289012724547944,
+          "minimum": 80.53216571236106,
+          "maximum": 85.95486695857191,
+          "values": [
+            81.8457393061637,
+            85.95486695857191,
+            80.53216571236106
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "is",
+      "method": "original_original",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 53.76794458877553,
+          "sample_sd": 2.1915525506864713,
+          "minimum": 52.18726949395271,
+          "maximum": 56.26971494698482,
+          "values": [
+            52.18726949395271,
+            56.26971494698482,
+            52.84684932538906
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 47.65582309086936,
+          "sample_sd": 2.81615128079351,
+          "minimum": 45.23033111817435,
+          "maximum": 50.74432214041814,
+          "values": [
+            45.23033111817435,
+            50.74432214041814,
+            46.99281601401559
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.66397215673065,
+          "sample_sd": 0.4548024946789945,
+          "minimum": 98.21488716739643,
+          "maximum": 99.12428427079824,
+          "values": [
+            98.6527450319973,
+            98.21488716739643,
+            99.12428427079824
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.6182777590659,
+          "sample_sd": 0.11828509883072588,
+          "minimum": 99.49477938699899,
+          "maximum": 99.73054900639946,
+          "values": [
+            99.49477938699899,
+            99.73054900639946,
+            99.62950488379926
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 82.77759065903223,
+          "sample_sd": 2.8289012724547944,
+          "minimum": 80.53216571236106,
+          "maximum": 85.95486695857191,
+          "values": [
+            81.8457393061637,
+            85.95486695857191,
+            80.53216571236106
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "is",
+      "method": "original_half",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 57.10378168934954,
+          "sample_sd": 2.2123854625012216,
+          "minimum": 54.7003354058365,
+          "maximum": 59.05532741437977,
+          "values": [
+            54.7003354058365,
+            59.05532741437977,
+            57.55568224783235
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 52.14791467031084,
+          "sample_sd": 2.575981793666366,
+          "minimum": 49.382687187062444,
+          "maximum": 54.47964375040365,
+          "values": [
+            49.382687187062444,
+            54.47964375040365,
+            52.58141307346643
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.95587739979791,
+          "sample_sd": 0.6292199963714826,
+          "minimum": 98.28224991579657,
+          "maximum": 99.52846076119906,
+          "values": [
+            99.05692152239811,
+            98.28224991579657,
+            99.52846076119906
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.65195913326598,
+          "sample_sd": 0.14022674297515544,
+          "minimum": 99.49477938699899,
+          "maximum": 99.76423038059953,
+          "values": [
+            99.49477938699899,
+            99.6968676321994,
+            99.76423038059953
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 86.35904344897273,
+          "sample_sd": 2.307358512422223,
+          "minimum": 84.91074435836983,
+          "maximum": 89.01987201077804,
+          "values": [
+            84.91074435836983,
+            89.01987201077804,
+            85.1465139777703
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "is",
+      "method": "mean_original",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 53.76794458877553,
+          "sample_sd": 2.1915525506864713,
+          "minimum": 52.18726949395271,
+          "maximum": 56.26971494698482,
+          "values": [
+            52.18726949395271,
+            56.26971494698482,
+            52.84684932538906
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 47.65582309086936,
+          "sample_sd": 2.81615128079351,
+          "minimum": 45.23033111817435,
+          "maximum": 50.74432214041814,
+          "values": [
+            45.23033111817435,
+            50.74432214041814,
+            46.99281601401559
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.66397215673065,
+          "sample_sd": 0.4548024946789945,
+          "minimum": 98.21488716739643,
+          "maximum": 99.12428427079824,
+          "values": [
+            98.6527450319973,
+            98.21488716739643,
+            99.12428427079824
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.6182777590659,
+          "sample_sd": 0.11828509883072588,
+          "minimum": 99.49477938699899,
+          "maximum": 99.73054900639946,
+          "values": [
+            99.49477938699899,
+            99.73054900639946,
+            99.62950488379926
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 82.77759065903223,
+          "sample_sd": 2.8289012724547944,
+          "minimum": 80.53216571236106,
+          "maximum": 85.95486695857191,
+          "values": [
+            81.8457393061637,
+            85.95486695857191,
+            80.53216571236106
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "is",
+      "method": "mean_full",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 55.52876997795193,
+          "sample_sd": 2.2957266499524533,
+          "minimum": 52.87798743844735,
+          "maximum": 56.873520935076435,
+          "values": [
+            52.87798743844735,
+            56.873520935076435,
+            56.834801560332004
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 50.39935385654456,
+          "sample_sd": 2.0747576624837114,
+          "minimum": 48.00372510099825,
+          "maximum": 51.6156481486739,
+          "values": [
+            48.00372510099825,
+            51.57868831996153,
+            51.6156481486739
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.1475244189963,
+          "sample_sd": 1.174509651341376,
+          "minimum": 96.8002694509936,
+          "maximum": 98.95587739979791,
+          "values": [
+            98.68642640619737,
+            96.8002694509936,
+            98.95587739979791
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.07937577186482,
+          "sample_sd": 0.5537829776642427,
+          "minimum": 98.4506567867969,
+          "maximum": 99.49477938699899,
+          "values": [
+            99.29269114179858,
+            98.4506567867969,
+            99.49477938699899
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 84.30447962276861,
+          "sample_sd": 1.8414195935111708,
+          "minimum": 82.55304816436511,
+          "maximum": 86.22431795217246,
+          "values": [
+            82.55304816436511,
+            86.22431795217246,
+            84.13607275176827
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    {
+      "visual_variant": "is",
+      "method": "mean_half",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 57.10378168934954,
+          "sample_sd": 2.2123854625012216,
+          "minimum": 54.7003354058365,
+          "maximum": 59.05532741437977,
+          "values": [
+            54.7003354058365,
+            59.05532741437977,
+            57.55568224783235
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 52.14791467031084,
+          "sample_sd": 2.575981793666366,
+          "minimum": 49.382687187062444,
+          "maximum": 54.47964375040365,
+          "values": [
+            49.382687187062444,
+            54.47964375040365,
+            52.58141307346643
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 98.95587739979791,
+          "sample_sd": 0.6292199963714826,
+          "minimum": 98.28224991579657,
+          "maximum": 99.52846076119906,
+          "values": [
+            99.05692152239811,
+            98.28224991579657,
+            99.52846076119906
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 99.65195913326598,
+          "sample_sd": 0.14022674297515544,
+          "minimum": 99.49477938699899,
+          "maximum": 99.76423038059953,
+          "values": [
+            99.49477938699899,
+            99.6968676321994,
+            99.76423038059953
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 86.35904344897273,
+          "sample_sd": 2.307358512422223,
+          "minimum": 84.91074435836983,
+          "maximum": 89.01987201077804,
+          "values": [
+            84.91074435836983,
+            89.01987201077804,
+            85.1465139777703
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    }
+  ],
+  "comparisons": {
+    "full_vs_equal_budget_rgb": {
+      "positive": [
+        "is",
+        "mean_half"
+      ],
+      "negative": [
+        "flat",
+        "rgb"
+      ],
+      "description": "完整可适配方案相对相同训练预算的纯视觉基准；包含额外质量信息收益",
+      "unit": "AP percentage points / accuracy percentage points",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 43.741905186501114,
+          "sample_sd": 0.6630079957389889,
+          "minimum": 43.16523713892141,
+          "maximum": 44.466324149940675,
+          "values": [
+            43.59415427064125,
+            44.466324149940675,
+            43.16523713892141
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 30.575673469012838,
+          "sample_sd": 4.039658443897916,
+          "minimum": 26.204057252118037,
+          "maximum": 34.170583803167276,
+          "values": [
+            31.352379351753203,
+            34.170583803167276,
+            26.204057252118037
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 78.82564275289099,
+          "sample_sd": 3.470053442728799,
+          "minimum": 74.87369484674976,
+          "maximum": 81.37420006736275,
+          "values": [
+            80.22903334456046,
+            74.87369484674976,
+            81.37420006736275
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 61.041877175255415,
+          "sample_sd": 2.450266923351742,
+          "minimum": 59.41394408891883,
+          "maximum": 63.85988548332772,
+          "values": [
+            59.8518019535197,
+            59.41394408891883,
+            63.85988548332772
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 68.3844167508701,
+          "sample_sd": 1.040494644131375,
+          "minimum": 67.76692489053553,
+          "maximum": 69.58571909733918,
+          "values": [
+            67.76692489053553,
+            67.8006062647356,
+            69.58571909733918
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    "algorithm_vs_fixed_same_mass": {
+      "positive": [
+        "is",
+        "mean_half"
+      ],
+      "negative": [
+        "is",
+        "original_original"
+      ],
+      "description": "同一 I–S 视觉检查点及相同质量信息下，新读出相对固定 CVSR",
+      "unit": "AP percentage points / accuracy percentage points",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 3.335837100574009,
+          "sample_sd": 1.196832716541093,
+          "minimum": 2.5130659118837855,
+          "maximum": 4.7088329224432925,
+          "values": [
+            2.5130659118837855,
+            2.785612467394948,
+            4.7088329224432925
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 4.492091579441483,
+          "sample_sd": 0.9722256094888454,
+          "minimum": 3.7353216099855118,
+          "maximum": 5.588597059450841,
+          "values": [
+            4.152356068888096,
+            3.7353216099855118,
+            5.588597059450841
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 0.29190524306725746,
+          "sample_sd": 0.19445950461085304,
+          "minimum": 0.06736274840014289,
+          "maximum": 0.4041764904008147,
+          "values": [
+            0.4041764904008147,
+            0.06736274840014289,
+            0.4041764904008147
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 0.033681374200071446,
+          "sample_sd": 0.08911253994828268,
+          "minimum": -0.033681374200057235,
+          "maximum": 0.13472549680027157,
+          "values": [
+            0.0,
+            -0.033681374200057235,
+            0.13472549680027157
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 3.5814527899404993,
+          "sample_sd": 0.8945137212099306,
+          "minimum": 3.065005052206132,
+          "maximum": 4.614348265409234,
+          "values": [
+            3.065005052206132,
+            3.065005052206132,
+            4.614348265409234
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    "I_S_conditional_on_mean_half": {
+      "positive": [
+        "is",
+        "mean_half"
+      ],
+      "negative": [
+        "flat",
+        "mean_half"
+      ],
+      "description": "相同 mean-half 读出下，I–S 结构的条件增益",
+      "unit": "AP percentage points / accuracy percentage points",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 4.720893500021606,
+          "sample_sd": 3.5088463987583385,
+          "minimum": 0.7370748693704883,
+          "maximum": 7.352251709815796,
+          "values": [
+            7.352251709815796,
+            6.073353920878532,
+            0.7370748693704883
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 5.127908189766323,
+          "sample_sd": 3.813905225419786,
+          "minimum": 0.870398990075266,
+          "maximum": 8.231898468508938,
+          "values": [
+            8.231898468508938,
+            6.281427110714766,
+            0.870398990075266
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": -0.13472549680027157,
+          "sample_sd": 0.2673376198448507,
+          "minimum": -0.43785786460087195,
+          "maximum": 0.06736274840012868,
+          "values": [
+            -0.033681374200071446,
+            -0.43785786460087195,
+            0.06736274840012868
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 0.11227124733356202,
+          "sample_sd": 0.1275156246951839,
+          "minimum": -0.033681374200057235,
+          "maximum": 0.20208824520040025,
+          "values": [
+            0.20208824520040025,
+            -0.033681374200057235,
+            0.16840687100034302
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 5.299202874143934,
+          "sample_sd": 2.990696145170958,
+          "minimum": 1.9535197036039165,
+          "maximum": 7.713034691815423,
+          "values": [
+            7.713034691815423,
+            6.231054227012464,
+            1.9535197036039165
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    },
+    "I_S_independent_rgb": {
+      "positive": [
+        "is",
+        "rgb"
+      ],
+      "negative": [
+        "flat",
+        "rgb"
+      ],
+      "description": "相同训练预算下，I–S 对纯视觉检测的独立增益",
+      "unit": "AP percentage points / accuracy percentage points",
+      "metrics": {
+        "AP": {
+          "n": 3,
+          "mean": 3.235523308791388,
+          "sample_sd": 2.3175645044267177,
+          "minimum": 0.6931346246917265,
+          "maximum": 5.230112471392314,
+          "values": [
+            3.7833228302901247,
+            5.230112471392314,
+            0.6931346246917265
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "parent_AP": {
+          "n": 3,
+          "mean": 5.344879187088748,
+          "sample_sd": 5.721056335442204,
+          "minimum": -1.148390217594521,
+          "maximum": 9.644402735394909,
+          "values": [
+            7.538625043465856,
+            9.644402735394909,
+            -1.148390217594521
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_accuracy_pct": {
+          "n": 3,
+          "mean": 2.8516896822723687,
+          "sample_sd": 1.1502735838413056,
+          "minimum": 1.8524755810037021,
+          "maximum": 4.109127652408215,
+          "values": [
+            4.109127652408215,
+            2.5934658134051887,
+            1.8524755810037021
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_state_accuracy_pct": {
+          "n": 3,
+          "mean": 2.806781183338946,
+          "sample_sd": 0.3322925471415429,
+          "minimum": 2.4250589424048528,
+          "maximum": 3.0313236780060606,
+          "values": [
+            2.963960929605925,
+            3.0313236780060606,
+            2.4250589424048528
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        },
+        "top1_fine_and_iou50_accuracy_pct": {
+          "n": 3,
+          "mean": 3.4804086673402943,
+          "sample_sd": 0.7115730044904383,
+          "minimum": 2.7281913102054567,
+          "maximum": 4.142809026608287,
+          "values": [
+            4.142809026608287,
+            3.57022566520714,
+            2.7281913102054567
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    }
+  },
+  "additional_2801_sensitivity": {
+    "status": "complete",
+    "subset_lock": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\_active_runs\\CCCM_FULL_EXTERNAL_20261024_R1\\SENSITIVITY_SUBSET_LOCK.json",
+    "subset_lock_sha256": "7c2edf4e0db894874e39a4af0225c7dfb846966443fa2d7d43acbb36b49f7817",
+    "images": 2801,
+    "excluded_previous_pilot_images": 168,
+    "rows": [
+      {
+        "training_seed": 42,
+        "visual_variant": "flat",
+        "method": "rgb",
+        "metrics": {
+          "AP": 11.121011403668792,
+          "AP50": 18.5014083547676,
+          "AP75": 11.59275344057728,
+          "images": 2801,
+          "predictions": 840300,
+          "top1_fine_accuracy_pct": 18.957515173152444,
+          "top1_state_accuracy_pct": 39.771510174937525,
+          "top1_fine_and_iou50_accuracy_pct": 17.279543020349877,
+          "AP_definition": "COCO IoU .50:.95, maxDets=100, original full 42-class taxonomy; imgIds restricted",
+          "missing_top1_images": 0
+        },
+        "full_test_AP": 11.106181135195252,
+        "additional_minus_full_AP_pp": 0.014830268473540187,
+        "predictions_sha256": "084cd6cf5c212d133b00ca2d6d49f5281f484071baa8d74e02ca6dcea5641dcc"
+      },
+      {
+        "training_seed": 42,
+        "visual_variant": "is",
+        "method": "original_original",
+        "metrics": {
+          "AP": 52.25418433417547,
+          "AP50": 79.78827428482671,
+          "AP75": 58.917433010438835,
+          "images": 2801,
+          "predictions": 840300,
+          "top1_fine_accuracy_pct": 98.60764012852553,
+          "top1_state_accuracy_pct": 99.50017850767583,
+          "top1_fine_and_iou50_accuracy_pct": 81.82791860049983,
+          "AP_definition": "COCO IoU .50:.95, maxDets=100, original full 42-class taxonomy; imgIds restricted",
+          "missing_top1_images": 0
+        },
+        "full_test_AP": 52.18726949395271,
+        "additional_minus_full_AP_pp": 0.06691484022275773,
+        "predictions_sha256": "ab8105173128e4fd115fded35e2e41cdf965636045acefc7cc3182b45e5c6f7b"
+      },
+      {
+        "training_seed": 42,
+        "visual_variant": "is",
+        "method": "mean_half",
+        "metrics": {
+          "AP": 54.73684481539094,
+          "AP50": 83.43596831141413,
+          "AP75": 62.06864527730084,
+          "images": 2801,
+          "predictions": 840300,
+          "top1_fine_accuracy_pct": 99.10746162084969,
+          "top1_state_accuracy_pct": 99.53588004284184,
+          "top1_fine_and_iou50_accuracy_pct": 84.89825062477686,
+          "AP_definition": "COCO IoU .50:.95, maxDets=100, original full 42-class taxonomy; imgIds restricted",
+          "missing_top1_images": 0
+        },
+        "full_test_AP": 54.7003354058365,
+        "additional_minus_full_AP_pp": 0.03650940955444071,
+        "predictions_sha256": "dc00025228b94036fa443ccc5c7eee5e83670eb60c2791745e6cf054fe058df3"
+      },
+      {
+        "training_seed": 3407,
+        "visual_variant": "flat",
+        "method": "rgb",
+        "metrics": {
+          "AP": 14.68263462955314,
+          "AP50": 23.94407305796296,
+          "AP75": 16.39995261474225,
+          "images": 2801,
+          "predictions": 840300,
+          "top1_fine_accuracy_pct": 23.527311674402,
+          "top1_state_accuracy_pct": 40.27133166726169,
+          "top1_fine_and_iou50_accuracy_pct": 21.34951802927526,
+          "AP_definition": "COCO IoU .50:.95, maxDets=100, original full 42-class taxonomy; imgIds restricted",
+          "missing_top1_images": 0
+        },
+        "full_test_AP": 14.589003264439096,
+        "additional_minus_full_AP_pp": 0.09363136511404413,
+        "predictions_sha256": "fca6b70e8dd6ec222036ae6c3aa8131dcc2c6d93b6b5739bdd70196b93cfa9b3"
+      },
+      {
+        "training_seed": 3407,
+        "visual_variant": "is",
+        "method": "original_original",
+        "metrics": {
+          "AP": 56.308551562354545,
+          "AP50": 83.68208643405268,
+          "AP75": 64.3222909445634,
+          "images": 2801,
+          "predictions": 840300,
+          "top1_fine_accuracy_pct": 98.2149232416994,
+          "top1_state_accuracy_pct": 99.75008925383791,
+          "top1_fine_and_iou50_accuracy_pct": 85.93359514459122,
+          "AP_definition": "COCO IoU .50:.95, maxDets=100, original full 42-class taxonomy; imgIds restricted",
+          "missing_top1_images": 0
+        },
+        "full_test_AP": 56.26971494698482,
+        "additional_minus_full_AP_pp": 0.038836615369724825,
+        "predictions_sha256": "7bfe1430acec074b5c231670860a37be5cc639222b26ddfce1c51db05d96f308"
+      },
+      {
+        "training_seed": 3407,
+        "visual_variant": "is",
+        "method": "mean_half",
+        "metrics": {
+          "AP": 59.027874085227204,
+          "AP50": 87.83845013900063,
+          "AP75": 67.48049615581849,
+          "images": 2801,
+          "predictions": 840300,
+          "top1_fine_accuracy_pct": 98.28632631203142,
+          "top1_state_accuracy_pct": 99.7143877186719,
+          "top1_fine_and_iou50_accuracy_pct": 89.07533023920028,
+          "AP_definition": "COCO IoU .50:.95, maxDets=100, original full 42-class taxonomy; imgIds restricted",
+          "missing_top1_images": 0
+        },
+        "full_test_AP": 59.05532741437977,
+        "additional_minus_full_AP_pp": -0.027453329152564265,
+        "predictions_sha256": "d814a72880d60a44e4c3f34c8f704c146f6b04de21d3b7c18f06999c4cdd70f7"
+      },
+      {
+        "training_seed": 2026,
+        "visual_variant": "flat",
+        "method": "rgb",
+        "metrics": {
+          "AP": 14.375056789728177,
+          "AP50": 20.847336209941496,
+          "AP75": 16.185964708475993,
+          "images": 2801,
+          "predictions": 840300,
+          "top1_fine_accuracy_pct": 18.17208139950018,
+          "top1_state_accuracy_pct": 35.844341306676185,
+          "top1_fine_and_iou50_accuracy_pct": 15.672973937879329,
+          "AP_definition": "COCO IoU .50:.95, maxDets=100, original full 42-class taxonomy; imgIds restricted",
+          "missing_top1_images": 0
+        },
+        "full_test_AP": 14.39044510891094,
+        "additional_minus_full_AP_pp": -0.01538831918276351,
+        "predictions_sha256": "4e300f99bfaaa6480d3096c9adb1494fe65b8adb9594e60841dfa93f94f64c01"
+      },
+      {
+        "training_seed": 2026,
+        "visual_variant": "is",
+        "method": "original_original",
+        "metrics": {
+          "AP": 52.81518385467504,
+          "AP50": 78.25273987020684,
+          "AP75": 58.65024834407274,
+          "images": 2801,
+          "predictions": 840300,
+          "top1_fine_accuracy_pct": 99.10746162084969,
+          "top1_state_accuracy_pct": 99.64298464833988,
+          "top1_fine_and_iou50_accuracy_pct": 80.61406640485541,
+          "AP_definition": "COCO IoU .50:.95, maxDets=100, original full 42-class taxonomy; imgIds restricted",
+          "missing_top1_images": 0
+        },
+        "full_test_AP": 52.84684932538906,
+        "additional_minus_full_AP_pp": -0.031665470714017374,
+        "predictions_sha256": "12ef5888ce3b69898392e7344b99ae0b4f5b9abfe288e623aacda2f0a541a46f"
+      },
+      {
+        "training_seed": 2026,
+        "visual_variant": "is",
+        "method": "mean_half",
+        "metrics": {
+          "AP": 57.56612116479122,
+          "AP50": 84.40289167125027,
+          "AP75": 64.30603131670097,
+          "images": 2801,
+          "predictions": 840300,
+          "top1_fine_accuracy_pct": 99.53588004284184,
+          "top1_state_accuracy_pct": 99.78579078900393,
+          "top1_fine_and_iou50_accuracy_pct": 85.36237058193502,
+          "AP_definition": "COCO IoU .50:.95, maxDets=100, original full 42-class taxonomy; imgIds restricted",
+          "missing_top1_images": 0
+        },
+        "full_test_AP": 57.55568224783235,
+        "additional_minus_full_AP_pp": 0.01043891695886856,
+        "predictions_sha256": "3726a9f524e57d9a2455d044161a5517bd3e6bc383b8eccf90763e9cac533a87"
+      }
+    ],
+    "mean_sample_sd": [
+      {
+        "visual_variant": "flat",
+        "method": "rgb",
+        "AP": {
+          "n": 3,
+          "mean": 13.39290094098337,
+          "sample_sd": 1.9735152860333849,
+          "minimum": 11.121011403668792,
+          "maximum": 14.68263462955314,
+          "values": [
+            11.121011403668792,
+            14.68263462955314,
+            14.375056789728177
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      },
+      {
+        "visual_variant": "is",
+        "method": "original_original",
+        "AP": {
+          "n": 3,
+          "mean": 53.79263991706835,
+          "sample_sd": 2.196824679091437,
+          "minimum": 52.25418433417547,
+          "maximum": 56.308551562354545,
+          "values": [
+            52.25418433417547,
+            56.308551562354545,
+            52.81518385467504
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      },
+      {
+        "visual_variant": "is",
+        "method": "mean_half",
+        "AP": {
+          "n": 3,
+          "mean": 57.11028002180312,
+          "sample_sd": 2.1815307491251206,
+          "minimum": 54.73684481539094,
+          "maximum": 59.027874085227204,
+          "values": [
+            54.73684481539094,
+            59.027874085227204,
+            57.56612116479122
+          ],
+          "seeds": [
+            42,
+            3407,
+            2026
+          ]
+        }
+      }
+    ],
+    "gain_mean_sample_sd": {
+      "full_vs_equal_budget_rgb": {
+        "n": 3,
+        "mean": 43.717379080819754,
+        "sample_sd": 0.5837496649765399,
+        "minimum": 43.19106437506304,
+        "maximum": 44.34523945567406,
+        "values": [
+          43.61583341172215,
+          44.34523945567406,
+          43.19106437506304
+        ],
+        "seeds": [
+          42,
+          3407,
+          2026
+        ]
+      },
+      "algorithm_vs_fixed_same_mass": {
+        "n": 3,
+        "mean": 3.317640104734769,
+        "sample_sd": 1.2468993101714176,
+        "minimum": 2.4826604812154685,
+        "maximum": 4.7509373101161785,
+        "values": [
+          2.4826604812154685,
+          2.719322522872659,
+          4.7509373101161785
+        ],
+        "seeds": [
+          42,
+          3407,
+          2026
+        ]
+      }
+    },
+    "scope": "Sensitivity excluding previously evaluated pilot frames; not a new blind or independent-recording test",
+    "re_inference": false,
+    "retraining": false,
+    "parameter_changes": false,
+    "frame_bootstrap": false,
+    "parent_AP_recomputed": false
+  },
+  "experiment_lock_sha256": "29d7e9704bfa70b61253f6b07fdf5a4770c18b14243d2c42a8897dd586367741",
+  "source_protocol_sha256": "9c733ec6acadb949aa6e0afe67711f4b844a54f1358e3ca3faef46b047a714e0",
+  "summary_script_sha256": "2fda3867a8fd52e7128a3539a7eb5e0e8f1c678db91e9f0bf0f1cf6155e07992",
+  "scoring_coefficients": {
+    "alpha": 0.5,
+    "beta": 2.0,
+    "eta": 0.2,
+    "observation_sigma_g": 0.25,
+    "class_std_floor_g": 1.0
+  },
+  "training_budget": {
+    "shared_base_epochs": 20,
+    "flat_branch_epochs": 10,
+    "is_branch_epochs": 10,
+    "batch_size": 4,
+    "resolution": [
+      384,
+      384
+    ],
+    "branch_ema": false,
+    "checkpoint_selection": "dev RGB AP maximum"
+  },
+  "source_checks": {
+    "all_shared_hashes_consistent": true,
+    "all_locked_input_hashes_match_current_files": true,
+    "unique_source_config_data_checkpoint_files_checked": 53
+  },
+  "no_frame_bootstrap": true,
+  "no_blind_test_claim": true,
+  "base_20_epoch_is_diagnostic": true,
+  "complete_results_not_selected_by_sign": true,
+  "telemetry_gate_tested": false,
+  "multi_record_association_tested": false
+}

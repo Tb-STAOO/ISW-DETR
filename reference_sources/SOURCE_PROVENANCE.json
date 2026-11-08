@@ -1,0 +1,299 @@
+[
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\ambiguity_fusion_20261013\\benefit_router.py",
+    "source_sha256": "88ca7a33db02658195ecbf1eac9715d11cae77d939db002acc60a437b3150c8a",
+    "target": "benefit_router.py",
+    "target_sha256": "8a5704bdec3b806d666f2c7c056a302a59e466fbfd272c95a0022ec37302fe51",
+    "all_function_and_class_AST_unchanged": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\ambiguity_fusion_20261013\\train_benefit_router.py",
+    "source_sha256": "f61607cb58903b7c85edbe494a6447d8ff858bba4017dd41dc338fa6f38dff0d",
+    "target": "train_benefit_router.py",
+    "target_sha256": "b5b1d445b288ae4844cb4a3fdcf18b7c2cb6ef6888036eb8ec3091029309782b",
+    "all_function_and_class_AST_unchanged": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\ambiguity_fusion_20261013\\data_export.py",
+    "source_sha256": "4b793dadfe9b13f5dd340efecf152fca031fdbc2905c8328111f529d0e68d1e9",
+    "target": "data_export.py",
+    "target_sha256": "02ea89acc60cde815b79ffd36e835a3966a93fb55c7fae1c818c08d7d62504a6",
+    "all_function_and_class_AST_unchanged": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\identity_state_decomposition_20261021\\transforms.py",
+    "source_sha256": "84c7c1901cad857a592ac45e6454f2f39122861fe6ba6aa287a747f2856f7299",
+    "target": "transforms.py",
+    "target_sha256": "f65cf4095e540cf32a0eb11d338e367cb1e5c4aefbd18d08f4313274b2ba2e85",
+    "all_function_and_class_AST_unchanged": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\identity_state_decomposition_20261021\\probe.py",
+    "source_sha256": "f1127c4d313c65262eb1146ed76d96c3033a0417173e3b43e041d9fce3e27603",
+    "target": "state_controls.py",
+    "target_sha256": "c8b416c07fbf63d576c8ebcacec309880ae7190af2c1daeef7bbcf638c76f9c3",
+    "preserved_functions": [
+      "changed_pack",
+      "fixed_logits"
+    ],
+    "selected_AST_unchanged": true,
+    "path_substitutions": [],
+    "reversed_path_substitution_AST_verified": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\_active_runs\\SR_RECTIFICATION_20261016_R1\\comparators\\e1_controls.py",
+    "source_sha256": "a76ebf8a8106ebdb16741566d2106104b719be6cc85042d62c0d2a9abd218ba7",
+    "target": "e1_core.py",
+    "target_sha256": "0f1ccbd6adc2ed3f8c0ba2b6bd3ccab39205cbb046104935131e2b62c66b6bcf",
+    "preserved_functions": [
+      "ConfidencePredictionRouter",
+      "map_logits"
+    ],
+    "selected_AST_unchanged": true,
+    "path_substitutions": [],
+    "reversed_path_substitution_AST_verified": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\ambiguity_fusion_20261013\\bootstrap_locked_router.py",
+    "source_sha256": "7ff9ebaf40a0451c46d48c2d8f8f47dcb64932febf59f88d6edc56adfcadeaf7",
+    "target": "exact_coco_ap.py",
+    "target_sha256": "57bbb745a4ad752bd81b6ac4289c1fb770333e8b45d7008319ac4ccf81ac56c6",
+    "preserved_functions": [
+      "coco_eval",
+      "extract",
+      "ap",
+      "duplicate"
+    ],
+    "selected_AST_unchanged": true,
+    "path_substitutions": [],
+    "reversed_path_substitution_AST_verified": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\state_evidence_stress_20261022\\stress_core.py",
+    "source_sha256": "8a9c299bbf9b9cf60f9c705f06258370a91e7ca0feac3f2fe32cb352ed291a66",
+    "target": "stress_reference.py",
+    "target_sha256": "9c0b2b84c01dc07f83e1fe5c6a87f9686a9602de367d382e445e1f263e3dbf6c",
+    "preserved_functions": [
+      "with_visual_and_evidence",
+      "infer"
+    ],
+    "selected_AST_unchanged": true,
+    "path_substitutions": [],
+    "reversed_path_substitution_AST_verified": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\state_evidence_stress_20261022\\visual_stress.py",
+    "source_sha256": "8e918cd7b6763e262f27dc0a25a4e9f00de9d6525a684e4b83b21691546dea76",
+    "target": "visual_interventions.py",
+    "target_sha256": "a3bdd5b0b3b463df61f621de90c0756e1668020d34d810d2c08fa69999aac227",
+    "preserved_functions": [
+      "perturbations"
+    ],
+    "selected_AST_unchanged": true,
+    "path_substitutions": [],
+    "reversed_path_substitution_AST_verified": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\state_evidence_stress_20261022\\physical_stress.py",
+    "source_sha256": "116aeb29c1b1d63efe93b7674136d2641a1b5bb3ed093f945a843b5bddcae483",
+    "target": "physical_interventions.py",
+    "target_sha256": "223bd1ddd2b8fd1af119fdf322ccadfb544527944e85e964571356ced6a6cb66",
+    "preserved_functions": [
+      "platform_offset",
+      "evidence_pack"
+    ],
+    "selected_AST_unchanged": true,
+    "path_substitutions": [],
+    "reversed_path_substitution_AST_verified": true,
+    "additional_preserved_functions": [
+      "fallback_contract"
+    ]
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\identity_state_decomposition_20261021\\calibration_controls.py",
+    "source_sha256": "d4df3d90282fe6ed488bbdb1baafa8594ba42fa98f24010af7be4ee66983d3fe",
+    "target": "calibration_reference.py",
+    "target_sha256": "ae501f49e19c242dde82a05cea132514eddc68cbe8be96392cbfede6a97e0291",
+    "preserved_functions": [
+      "alternatives",
+      "pack_with_z"
+    ],
+    "selected_AST_unchanged": true,
+    "path_substitutions": [],
+    "reversed_path_substitution_AST_verified": true
+  },
+  {
+    "source": "E:\\ISW_DETR_Scientific_Reports_Versions\\ISW_DETR0903_03\\03_REPRODUCIBILITY\\reanalysis\\diagnose_predictions.py",
+    "source_sha256": "850c900f27e2df0c5e8b4f0ea82e04332b0611e2bae437031f62c3da98005a06",
+    "target": "geometry_matching.py",
+    "target_sha256": "3aa22a4207b0435344da2d53917ce179b53198f3b60e16f0921069d94cfe3faa",
+    "preserved_functions": [
+      "iou_matrix",
+      "maximum_matching",
+      "score_order_matching"
+    ],
+    "selected_AST_unchanged": true,
+    "path_substitutions": [],
+    "reversed_path_substitution_AST_verified": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\RT_DETR\\tools\\cara_cvsr_20260908\\data.py",
+    "source_sha256": "43c8a88d325472503a3ed07a71ecdbbc7ce6333875a9ecb4161f90592c042c8c",
+    "target": "diagnostic_supervision.py",
+    "target_sha256": "849427676671e040930cb0f44a8ca7e0f0cf52d67f91bbb3cde9f2f1db31c93c",
+    "preserved_functions": [
+      "attach_supervision"
+    ],
+    "selected_AST_unchanged": true,
+    "path_substitutions": [],
+    "reversed_path_substitution_AST_verified": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\论文撰写\\Scientific_Reports_ISW_DETR_20260830\\09_VERSIONS\\ISW_DETR1022_01\\03_REPRODUCIBILITY\\generate_state_assets.py",
+    "source_sha256": "c4bd14d77206e016bf28d3eedea6547e88bf8792cd9af8cf4387f5f0f476a347",
+    "target": "diagnostics_reference.py",
+    "target_sha256": "c09054ee5ce34ca58cc67159f1387e996e2d6b61dff381033f73f3176e3a1e41",
+    "preserved_functions": [
+      "fixed_prediction_diagnostics"
+    ],
+    "selected_AST_unchanged": false,
+    "path_substitutions": [
+      [
+        "taxonomy=tr.NATIVE/'configs/dataset/scalevision_mm_v3_cfqd_taxonomy.json'",
+        "taxonomy=ROOT/'inference/inputs/taxonomy.json'"
+      ],
+      [
+        "R21/f'transfer/{split}/seed{seed}/predictions.npz'",
+        "R21/f'{split}/seed{seed}/predictions.npz'"
+      ],
+      [
+        "R21/'TRANSFER_RESULTS.json'",
+        "R21/'PRIVATE_CONTROLS.json'"
+      ]
+    ],
+    "reversed_path_substitution_AST_verified": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\论文撰写\\Scientific_Reports_ISW_DETR_20260830\\09_VERSIONS\\ISW_DETR1022_01\\03_REPRODUCIBILITY\\generate_state_assets.py",
+    "source_sha256": "c4bd14d77206e016bf28d3eedea6547e88bf8792cd9af8cf4387f5f0f476a347",
+    "target": "figure_reference.py",
+    "target_sha256": "4494df1f65bf2d3cda5ffae06cb5c739ecf380bcd84f242f09f095152734aee3",
+    "preserved_functions": [
+      "plotting",
+      "save",
+      "panel",
+      "figure_system",
+      "figure_acquisition",
+      "figure_effects",
+      "figure_stress",
+      "figure_classes"
+    ],
+    "selected_AST_unchanged": false,
+    "path_substitutions": [
+      [
+        "Path('D:/MY_DATA/09-Dataset/ScaleVision-MM-External-120/images')",
+        "HOLDOUT_IMAGES"
+      ],
+      [
+        "PAPER/'04_FIGURE_DATA/class_display_names.json'",
+        "CLASS_NAMES_PATH"
+      ],
+      [
+        "R21/'paired_scene_bootstrap/BOOTSTRAP_SUMMARY.json'",
+        "BOOTSTRAP_SUMMARY"
+      ],
+      [
+        "R21/'REASSOCIATED_SCREEN_RESULTS.json'",
+        "VALIDATION_ANALYSIS/'REASSOCIATED_SCREEN_RESULTS.json'"
+      ],
+      [
+        "R21/'SESSION_RESULTS.json'",
+        "DIAGNOSTICS/'SESSION_RESULTS.json'"
+      ],
+      [
+        "R22/'VISUAL_STRESS_RESULTS.json'",
+        "VALIDATION_ANALYSIS/'VISUAL_STRESS_RESULTS.json'"
+      ],
+      [
+        "R22/'physical/RESULTS.json'",
+        "VALIDATION_ANALYSIS/'PHYSICAL_STRESS_RESULTS.json'"
+      ]
+    ],
+    "reversed_path_substitution_AST_verified": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\_active_runs\\CCCM_FULL_EXTERNAL_20261024_R1\\runtime\\summarize_full_results.py",
+    "source_sha256": "2fda3867a8fd52e7128a3539a7eb5e0e8f1c678db91e9f0bf0f1cf6155e07992",
+    "target": "public_sensitivity.py",
+    "target_sha256": "717d40441391f7a4b7ec00fd68c9cb332fbdbecdf6ba8e28188b3d1307c0e713",
+    "functions": [
+      "iter_prediction_array",
+      "subset_metrics",
+      "canonical",
+      "stats"
+    ],
+    "selected_function_AST_exact": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\state_evidence_ablation_20261022\\run_ablation.py",
+    "source_sha256": "08681dfd1f2ecad73725f7b4b9381987e04e796950d2b777d31224232595d32c",
+    "target": "shared_pool.py",
+    "target_sha256": "6c1abff96bd11eae01c64796936c04c5ff24e6d11dfeccd7dde3e0e8b79a330a",
+    "functions": [
+      "prediction"
+    ],
+    "selected_function_AST_exact": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\ambiguity_fusion_20261013\\native_benefit_adapter.py",
+    "source_sha256": "1eef5f9aa70c4182217f57e4cc159b391b5fe6fdb4b7c30fa5acdbd154f1273c",
+    "target": "native_benefit_adapter.py",
+    "target_sha256": "1eef5f9aa70c4182217f57e4cc159b391b5fe6fdb4b7c30fa5acdbd154f1273c",
+    "byte_identical": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\Official\\RT-DETR\\rtdetrv2_pytorch\\configs\\rtdetrv2\\rtdetrv2_r18vd_120e_scalevision_mm_v3_visual.yml",
+    "source_sha256": "50c46b35efc3aa450face8da5fc7f6271a7018715a6396f35237fe0d075410f7",
+    "target": "configs\\scalevision\\training_b0.yml",
+    "target_sha256": "0e5cfdc54399107f2ccb593728eef54f2b582719e55f355143e26d16fb74b176",
+    "flattened_original_YAML_include_closure": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\Official\\RT-DETR\\rtdetrv2_pytorch\\configs\\rtdetrv2\\rtdetrv2_r18vd_90e_scalevision_mm_v3_visual_warm_control.yml",
+    "source_sha256": "99d3d6b76dcc5e74e2d989075c3818f1f890df88a29a8bdbb132ef819bb173bd",
+    "target": "configs\\scalevision\\training_warm.yml",
+    "target_sha256": "b559d9418010649a9a2fd1de63ce425dcda05f92842a5408ef1cc289df0db9a0",
+    "flattened_original_YAML_include_closure": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\Official\\RT-DETR\\rtdetrv2_pytorch\\configs\\rtdetrv2\\rtdetrv2_r18vd_30e_scalevision_mm_v3_cfqd_factorized.yml",
+    "source_sha256": "2be95e45dd7d0f759b717fbf35fe4796ebbd65f7562ace8d7ac9e86176e009a9",
+    "target": "configs\\scalevision\\training_is.yml",
+    "target_sha256": "5fc724e659f85f71d5a01af656e225e3d4cef596fa967f5fce2c6994394f02e8",
+    "flattened_original_YAML_include_closure": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\_active_runs\\SR_RECTIFICATION_20261016_R1\\comparators\\e1_controls.py",
+    "source_sha256": "a76ebf8a8106ebdb16741566d2106104b719be6cc85042d62c0d2a9abd218ba7",
+    "target": "confidence_loss.py",
+    "target_sha256": "fbfd6084e50bfde5337f495a0a80dd7fab2dfa8b9bb3a500cecebc2d41906711",
+    "selected_function_AST_exact": true,
+    "functions": [
+      "confidence_loss"
+    ]
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\build_scalevision_mm_v3_physical_prior_stats.py",
+    "source_sha256": "3fb385de1ffb60f468ae6893344572b8ba61114c7c067dfb97061edf971dfaee",
+    "target": "data_preparation\\private_prior_source.py",
+    "target_sha256": "3fb385de1ffb60f468ae6893344572b8ba61114c7c067dfb97061edf971dfaee",
+    "byte_identical": true
+  },
+  {
+    "source": "D:\\MY_DATA\\02-project\\sci_project\\RT_DETR\\tools\\augment_scalevision_mm_v3_physical_prior_stats.py",
+    "source_sha256": "decaf3d5eb896b857bcb5b0cc23fa4f0acd43b91e2b817f5945e319dd3eb0529",
+    "target": "data_preparation\\private_prior_compatibility.py",
+    "target_sha256": "decaf3d5eb896b857bcb5b0cc23fa4f0acd43b91e2b817f5945e319dd3eb0529",
+    "byte_identical": true
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": 0,
+    "english": "Canned Wanglaoji (empty)",
+    "annotation_category_name": "罐装王老吉（空）"
+  },
+  {
+    "id": 1,
+    "english": "Canned Wanglaoji",
+    "annotation_category_name": "罐装王老吉"
+  },
+  {
+    "id": 2,
+    "english": "Canned Coca-Cola",
+    "annotation_category_name": "罐装可口可乐"
+  },
+  {
+    "id": 3,
+    "english": "Canned JDB (empty)",
+    "annotation_category_name": "罐装加多宝（空）"
+  },
+  {
+    "id": 4,
+    "english": "Canned JDB",
+    "annotation_category_name": "罐装加多宝"
+  },
+  {
+    "id": 5,
+    "english": "C'estbon (empty)",
+    "annotation_category_name": "怡宝（空）"
+  },
+  {
+    "id": 6,
+    "english": "C'estbon",
+    "annotation_category_name": "怡宝"
+  },
+  {
+    "id": 7,
+    "english": "Small cucumber chips",
+    "annotation_category_name": "小薯片-绿色"
+  },
+  {
+    "id": 8,
+    "english": "Small tomato chips",
+    "annotation_category_name": "小薯片-紫色"
+  },
+  {
+    "id": 9,
+    "english": "Small Mengniu milk",
+    "annotation_category_name": "小蒙牛牛奶"
+  },
+  {
+    "id": 10,
+    "english": "Small Vita tea (empty)",
+    "annotation_category_name": "小维他柠檬茶（空）"
+  },
+  {
+    "id": 11,
+    "english": "Small Vita tea",
+    "annotation_category_name": "小维他柠檬茶"
+  },
+  {
+    "id": 12,
+    "english": "Small boxed JDB",
+    "annotation_category_name": "小盒装加多宝"
+  },
+  {
+    "id": 13,
+    "english": "Small Yili milk (empty)",
+    "annotation_category_name": "小伊利牛奶（空）"
+  },
+  {
+    "id": 14,
+    "english": "Small Yili milk",
+    "annotation_category_name": "小伊利牛奶"
+  },
+  {
+    "id": 15,
+    "english": "Large cucumber chips",
+    "annotation_category_name": "大薯片-绿色"
+  },
+  {
+    "id": 16,
+    "english": "Large tomato chips",
+    "annotation_category_name": "大薯片-紫色"
+  },
+  {
+    "id": 17,
+    "english": "Large Mengniu milk",
+    "annotation_category_name": "大蒙牛牛奶"
+  },
+  {
+    "id": 18,
+    "english": "Large Vita tea (empty)",
+    "annotation_category_name": "大维他柠檬茶（空）"
+  },
+  {
+    "id": 19,
+    "english": "Large Vita tea",
+    "annotation_category_name": "大维他柠檬茶"
+  },
+  {
+    "id": 20,
+    "english": "Large Yili milk (empty)",
+    "annotation_category_name": "大伊利牛奶（空）"
+  },
+  {
+    "id": 21,
+    "english": "Large Yili milk",
+    "annotation_category_name": "大伊利牛奶"
+  },
+  {
+    "id": 22,
+    "english": "Hekaishui (empty)",
+    "annotation_category_name": "喝开水（空）"
+  },
+  {
+    "id": 23,
+    "english": "Hekaishui",
+    "annotation_category_name": "喝开水"
+  },
+  {
+    "id": 24,
+    "english": "Liangbaikai (empty)",
+    "annotation_category_name": "凉白开（空）"
+  },
+  {
+    "id": 25,
+    "english": "Liangbaikai",
+    "annotation_category_name": "凉白开"
+  },
+  {
+    "id": 26,
+    "english": "Nongfu Spring (empty)",
+    "annotation_category_name": "农夫山泉（空）"
+  },
+  {
+    "id": 27,
+    "english": "Nongfu Spring",
+    "annotation_category_name": "农夫山泉"
+  }
+]
